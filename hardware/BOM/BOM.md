@@ -1,7 +1,6 @@
 #### Create BOM files for the equipment
 
-
-We recommend creating different files:
+e recommend creating different files:
 
 <br>
 - Electronic_BOM.csv: table containing all the integrated circuits(IC) necessary to populate the PCB (when one is present). We suggest using the format used by [kitspace.org](kitspace.org), so that people can easily order parts from different manufacturers.
