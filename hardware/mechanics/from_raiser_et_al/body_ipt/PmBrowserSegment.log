@@ -1,0 +1,283 @@
+[2014]
+(0001): 189B3560 'PmDefault' grIdx=0106
+	lst0[0000] = (0006): DF9CA7B0 'PmDefault' lst0=[] u16=000 val=''
+		ref_0 = (0005): F7676AB1 flags=000D u8_0=00 u8_4=00 a0=[000,000,000,000,004] index=0001 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=000B u8_3=00 u32_0=0000
+			*items[0000] = (0056): 44664C6F 'Analysis'
+			*items[0001] = (0057): 9E77CCC1
+			*items[0002] = (0018): FolderBodies
+			*items[0003] = (0017): FolderBodies
+			*items[0004] = (0058): 18BAA333
+			*items[0005] = (000F): FolderBrowser 'Origin'
+			*items[0006] = (001A): FxUnknown 'body'
+			*items[0007] = (0049): FxUnknown 'big opening'
+			*items[0008] = (004B): FxUnknown 'chamber'
+			*items[0009] = (004D): FxUnknown 'small opening'
+			*items[000A] = (004F): FxUnknown 'bore to chamber - NC odor valve'
+			*items[000B] = (0051): FxUnknown 'odor in - COM odor valve'
+			*items[000C] = (0053): FxUnknown 'waste - NO odor valve'
+			*items[000D] = (0054): Sketch2D 'Sketch14'
+			*items[000E] = (0047): Sketch2D 'Sketch24'
+			*items[000F] = (0048): Sketch2D 'Sketch27'
+			*items[0010] = (0045): FxUnknown 'valve screws'
+			*items[0011] = (0007): E82BC461 'odor valves'
+			*items[0012] = (0046): FxUnknown 'Chamfer1'
+			*items[0013] = (0041): Sketch2D 'Sketch32'
+			*items[0014] = (0042): Sketch2D 'Sketch33'
+			*items[0015] = (0043): FxUnknown 'cable 1'
+			*items[0016] = (0044): FxUnknown 'cable 2'
+			*items[0017] = (0009): E82BC461 'cable path'
+			*items[0018] = (003D): Sketch2D 'Sketch38'
+			*items[0019] = (003F): FxUnknown 'Extrusion30'
+			*items[001A] = (0039): FxUnknown 'Extrusion31'
+			*items[001B] = (003A): FxUnknown 'Extrusion32'
+			*items[001C] = (003C): FxUnknown 'Extrusion33'
+			*items[001D] = (000B): E82BC461 'Circular Pattern9'
+			*items[001E] = (0036): FxUnknown 'Hole6'
+			*items[001F] = (0038): FxUnknown 'Extrusion34'
+			*items[0020] = (002D): FxUnknown 'Extrusion35'
+			*items[0021] = (002F): FxUnknown 'Extrusion36'
+			*items[0022] = (0031): FxUnknown 'Extrusion37'
+			*items[0023] = (0033): FxUnknown 'Extrusion38'
+			*items[0024] = (003E): FxUnknown 'Chamfer2'
+			*items[0025] = (0034): FxUnknown 'Revolution2'
+			*items[0026] = (0021): FxUnknown 'Extrusion39'
+			*items[0027] = (001C): E82BC461 'Circular Pattern12'
+			*items[0028] = (0022): FxUnknown 'Thread15'
+			*items[0029] = (0023): FxUnknown 'Thread16'
+			*items[002A] = (0024): FxUnknown 'Thread17'
+			*items[002B] = (0025): FxUnknown 'Thread18'
+			*items[002C] = (0026): FxUnknown 'Thread19'
+			*items[002D] = (0027): FxUnknown 'Thread20'
+			*items[002E] = (0028): FxUnknown 'Thread21'
+			*items[002F] = (0029): FxUnknown 'Thread22'
+			*items[0030] = (002A): FxUnknown 'Thread23'
+			*items[0031] = (002B): FxUnknown 'Thread24'
+			*items[0032] = (001E): FxUnknown 'Hole8'
+			*items[0033] = (000D): EndOfPart
+(0002): EntryManager u32_0=0001
+	entries[80000007] = (0008): FolderBrowser 'Folder' flags=0400 u16_0=000 a0=[000,000,0A5] index=80000007 a2a=80000007 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=006D u8_3=00 u32_0=0000
+		*items[0000] = (004F): FxUnknown 'bore to chamber - NC odor valve'
+		*items[0001] = (0051): FxUnknown 'odor in - COM odor valve'
+		*items[0002] = (0053): FxUnknown 'waste - NO odor valve'
+		*items[0003] = (0045): FxUnknown 'valve screws'
+	entries[80000009] = (000A): FolderBrowser 'Folder' flags=0400 u16_0=000 a0=[000,000,0EA] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=009C u8_3=00 u32_0=0000
+		*items[0000] = (0043): FxUnknown 'cable 1'
+		*items[0001] = (0044): FxUnknown 'cable 2'
+	entries[8000000B] = (000C): FolderBrowser 'Folder' flags=0400 u16_0=000 a0=[000,000,136] index=8000000B a2a=8000000B u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C6 u8_3=00 u32_0=0000
+		*items[0000] = (003F): FxUnknown 'Extrusion30'
+		*items[0001] = (0039): FxUnknown 'Extrusion31'
+		*items[0002] = (003A): FxUnknown 'Extrusion32'
+		*items[0003] = (003C): FxUnknown 'Extrusion33'
+	*entries[0001] = (0005): F7676AB1
+	entries[0002] = (000D): EndOfPart flags=0000 u16_0=001 a0=[000,000,005] index=0002 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=000A u8_3=00 u32_0=0000
+	entries[0003] = (000E): Body 'Solid1' flags=0400 u16_0=001 a0=[000,000,018] index=0003 a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0014 u8_3=00 u32_0=0000 dcCreatorIdx=0002 a5=[0000,0001]
+		*items[0000] = (001A): FxUnknown 'body'
+		*items[0001] = (0049): FxUnknown 'big opening'
+		*items[0002] = (004B): FxUnknown 'chamber'
+		*items[0003] = (004D): FxUnknown 'small opening'
+		*items[0004] = (004F): FxUnknown 'bore to chamber - NC odor valve'
+		*items[0005] = (0051): FxUnknown 'odor in - COM odor valve'
+		*items[0006] = (0053): FxUnknown 'waste - NO odor valve'
+		*items[0007] = (0045): FxUnknown 'valve screws'
+		*items[0008] = (0007): E82BC461 'odor valves'
+		*items[0009] = (0046): FxUnknown 'Chamfer1'
+		*items[000A] = (0043): FxUnknown 'cable 1'
+		*items[000B] = (0044): FxUnknown 'cable 2'
+		*items[000C] = (0009): E82BC461 'cable path'
+		*items[000D] = (003F): FxUnknown 'Extrusion30'
+		*items[000E] = (0039): FxUnknown 'Extrusion31'
+		*items[000F] = (003A): FxUnknown 'Extrusion32'
+		*items[0010] = (003C): FxUnknown 'Extrusion33'
+		*items[0011] = (000B): E82BC461 'Circular Pattern9'
+		*items[0012] = (0036): FxUnknown 'Hole6'
+		*items[0013] = (0038): FxUnknown 'Extrusion34'
+		*items[0014] = (002D): FxUnknown 'Extrusion35'
+		*items[0015] = (002F): FxUnknown 'Extrusion36'
+		*items[0016] = (0031): FxUnknown 'Extrusion37'
+		*items[0017] = (0033): FxUnknown 'Extrusion38'
+		*items[0018] = (003E): FxUnknown 'Chamfer2'
+		*items[0019] = (0034): FxUnknown 'Revolution2'
+		*items[001A] = (0021): FxUnknown 'Extrusion39'
+		*items[001B] = (001C): E82BC461 'Circular Pattern12'
+		*items[001C] = (0022): FxUnknown 'Thread15'
+		*items[001D] = (0023): FxUnknown 'Thread16'
+		*items[001E] = (0024): FxUnknown 'Thread17'
+		*items[001F] = (0025): FxUnknown 'Thread18'
+		*items[0020] = (0026): FxUnknown 'Thread19'
+		*items[0021] = (0027): FxUnknown 'Thread20'
+		*items[0022] = (0028): FxUnknown 'Thread21'
+		*items[0023] = (0029): FxUnknown 'Thread22'
+		*items[0024] = (002A): FxUnknown 'Thread23'
+		*items[0025] = (002B): FxUnknown 'Thread24'
+		*items[0026] = (001E): FxUnknown 'Hole8'
+	entries[0004] = (000F): FolderBrowser 'Origin' flags=0200 u16_0=000 a0=[000,000,010] index=0004 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0009 u8_3=00 u32_0=0000
+		*items[0000] = (0010): 3dObject 'YZ Plane'
+		*items[0001] = (0011): 3dObject 'XZ Plane'
+		*items[0002] = (0012): 3dObject 'XY Plane'
+		*items[0003] = (0013): 3dObject 'X Axis'
+		*items[0004] = (0014): 3dObject 'Y Axis'
+		*items[0005] = (0015): 3dObject 'Z Axis'
+		*items[0006] = (0016): 3dObject 'Center Point'
+	entries[0005] = (0010): 3dObject 'YZ Plane' flags=0000 u16_0=000 a0=[000,000,009] index=0005 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0002 u8_3=00 u32_0=0000 u8_5=08
+	entries[0006] = (0011): 3dObject 'XZ Plane' flags=0004 u16_0=000 a0=[000,000,00A] index=0006 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0003 u8_3=00 u32_0=0000 u8_5=07
+	entries[0007] = (0012): 3dObject 'XY Plane' flags=0004 u16_0=000 a0=[000,000,00B] index=0007 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0004 u8_3=00 u32_0=0000 u8_5=06
+	entries[0008] = (0013): 3dObject 'X Axis' flags=0004 u16_0=000 a0=[000,000,00C] index=0008 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0005 u8_3=00 u32_0=0000 u8_5=09
+	entries[0009] = (0014): 3dObject 'Y Axis' flags=0000 u16_0=000 a0=[000,000,00D] index=0009 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0006 u8_3=00 u32_0=0000 u8_5=0A
+	entries[000A] = (0015): 3dObject 'Z Axis' flags=0004 u16_0=000 a0=[000,000,00E] index=000A a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0007 u8_3=00 u32_0=0000 u8_5=0B
+	entries[000B] = (0016): 3dObject 'Center Point' flags=0004 u16_0=000 a0=[000,000,00F] index=000B a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0008 u8_3=00 u32_0=0000 u8_5=0C
+	entries[000C] = (0017): FolderBodies flags=0200 u16_0=001 a0=[000,000,012] index=000C a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=000E u8_3=00 u32_0=0000
+	entries[000D] = (0018): FolderBodies flags=0400 u16_0=002 a0=[000,000,013] index=000D a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=000F u8_3=00 u32_0=0000
+		*items[0000] = (000E): Body 'Solid1'
+	entries[000E] = (0019): Sketch2D 'Sketch1' flags=0004 u16_0=001 a0=[000,000,016] index=000E a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0012 u8_3=00 u32_0=0000
+	entries[000F] = (001A): FxUnknown 'body' flags=0000 u16_0=002 a0=[000,000,017] index=000F a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0013 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0019): Sketch2D 'Sketch1'
+	entries[0010] = (001B): Sketch2D 'Sketch2' flags=4004 u16_0=003 a0=[000,000,019] index=0010 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0015 u8_3=00 u32_0=0000
+	entries[8000001C] = (001D): FolderBrowser 'Folder' flags=0400 u16_0=000 a0=[000,000,166] index=8000001C a2a=8000001C u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F4 u8_3=00 u32_0=0000
+		*items[0000] = (0036): FxUnknown 'Hole6'
+		*items[0001] = (0021): FxUnknown 'Extrusion39'
+		*items[0002] = (0038): FxUnknown 'Extrusion34'
+		*items[0003] = (002D): FxUnknown 'Extrusion35'
+		*items[0004] = (002F): FxUnknown 'Extrusion36'
+		*items[0005] = (0031): FxUnknown 'Extrusion37'
+		*items[0006] = (0033): FxUnknown 'Extrusion38'
+	entries[0011] = (001E): FxUnknown 'Hole8' flags=0000 u16_0=008 a0=[000,000,177] index=0011 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0104 u8_3=00 u32_0=0000 uid_0={1f757d1a-11d2-549c-a000-20803603c8c9} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (001F): Sketch2D 'Sketch51'
+	entries[0012] = (001F): Sketch2D 'Sketch51' flags=0004 u16_0=033 a0=[000,000,174] index=0012 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0102 u8_3=00 u32_0=0000
+	entries[0013] = (0020): Sketch2D 'Sketch49' flags=4004 u16_0=034 a0=[000,000,163] index=0013 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F1 u8_3=00 u32_0=0000
+	entries[0014] = (0021): FxUnknown 'Extrusion39' flags=0000 u16_0=027 a0=[000,000,164] index=0014 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F2 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0020): Sketch2D 'Sketch49'
+	entries[0015] = (001C): E82BC461 'Circular Pattern12' u32_2=001D u8_0=00 a0=[00,00,00,00,01] u16_0=00C a4=[000,000,165] index=0015 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F3 u8_3=00 u32_0=0000 uid_0={b6c22694-11d2-3626-6000-2cab01f31bb0} u32_3=0000
+		*lst0[0000] = (0036): FxUnknown 'Hole6'
+		*lst0[0001] = (0021): FxUnknown 'Extrusion39'
+		*lst0[0002] = (0038): FxUnknown 'Extrusion34'
+		*lst0[0003] = (002D): FxUnknown 'Extrusion35'
+		*lst0[0004] = (002F): FxUnknown 'Extrusion36'
+		*lst0[0005] = (0031): FxUnknown 'Extrusion37'
+		*lst0[0006] = (0033): FxUnknown 'Extrusion38'
+		lst1[0000] = (0065): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,167] index=8000001C a2a=8000001C u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F5 u8_3=00 u32_0=0000 u32_1=0001
+		lst1[0001] = (0066): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,168] index=8000001C a2a=8000001C u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F6 u8_3=00 u32_0=0000 u32_1=0002
+		*items[0000] = (001D): FolderBrowser 'Folder'
+		*items[0001] = (0065): 761C4FA0 'Occurrence'
+		*items[0002] = (0066): 761C4FA0 'Occurrence'
+	entries[0016] = (0022): FxUnknown 'Thread15' flags=0000 u16_0=00F a0=[000,000,169] index=0016 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F7 u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[0017] = (0023): FxUnknown 'Thread16' flags=0000 u16_0=010 a0=[000,000,16A] index=0017 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F8 u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[0018] = (0024): FxUnknown 'Thread17' flags=0000 u16_0=011 a0=[000,000,16B] index=0018 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F9 u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[0019] = (0025): FxUnknown 'Thread18' flags=0000 u16_0=012 a0=[000,000,16C] index=0019 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FA u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001A] = (0026): FxUnknown 'Thread19' flags=0000 u16_0=013 a0=[000,000,16D] index=001A a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FB u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001B] = (0027): FxUnknown 'Thread20' flags=0000 u16_0=014 a0=[000,000,16E] index=001B a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FC u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001C] = (0028): FxUnknown 'Thread21' flags=0000 u16_0=015 a0=[000,000,16F] index=001C a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FD u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001D] = (0029): FxUnknown 'Thread22' flags=0000 u16_0=016 a0=[000,000,170] index=001D a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FE u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001E] = (002A): FxUnknown 'Thread23' flags=0000 u16_0=017 a0=[000,000,171] index=001E a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00FF u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[001F] = (002B): FxUnknown 'Thread24' flags=0000 u16_0=018 a0=[000,000,172] index=001F a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0100 u8_3=00 u32_0=0000 uid_0={28aa1906-11d4-7ac7-6000-c4a4cae1fbb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[0020] = (002C): Sketch2D 'Sketch45' flags=0004 u16_0=02D a0=[000,000,156] index=0020 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E4 u8_3=00 u32_0=0000
+	entries[0021] = (002D): FxUnknown 'Extrusion35' flags=0000 u16_0=023 a0=[000,000,157] index=0021 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E5 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (002C): Sketch2D 'Sketch45'
+	entries[0022] = (002E): Sketch2D 'Sketch46' flags=4004 u16_0=024 a0=[000,000,158] index=0022 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E6 u8_3=00 u32_0=0000
+	entries[0023] = (002F): FxUnknown 'Extrusion36' flags=0000 u16_0=024 a0=[000,000,159] index=0023 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E7 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (002E): Sketch2D 'Sketch46'
+	entries[0024] = (0030): Sketch2D 'Sketch47' flags=0004 u16_0=02F a0=[000,000,15A] index=0024 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E8 u8_3=00 u32_0=0000
+	entries[0025] = (0031): FxUnknown 'Extrusion37' flags=0000 u16_0=025 a0=[000,000,15B] index=0025 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E9 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0030): Sketch2D 'Sketch47'
+	entries[0026] = (0032): Sketch2D 'Sketch48' flags=4004 u16_0=026 a0=[000,000,15C] index=0026 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00EA u8_3=00 u32_0=0000
+	entries[0027] = (0033): FxUnknown 'Extrusion38' flags=0000 u16_0=026 a0=[000,000,15D] index=0027 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00EB u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0032): Sketch2D 'Sketch48'
+	entries[0028] = (0034): FxUnknown 'Revolution2' flags=0000 u16_0=002 a0=[000,000,162] index=0028 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00F0 u8_3=00 u32_0=0000 uid_0={0054015f-11d2-1c25-6000-67b79b49ebb0} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (003D): Sketch2D 'Sketch38'
+	entries[0029] = (0035): Sketch2D 'Sketch43' flags=0004 u16_0=02B a0=[000,000,150] index=0029 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E0 u8_3=00 u32_0=0000
+	entries[002A] = (0036): FxUnknown 'Hole6' flags=0000 u16_0=006 a0=[000,000,153] index=002A a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E1 u8_3=00 u32_0=0000 uid_0={1f757d1a-11d2-549c-a000-20803603c8c9} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0035): Sketch2D 'Sketch43'
+	entries[002B] = (0037): Sketch2D 'Sketch44' flags=0004 u16_0=02C a0=[000,000,154] index=002B a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E2 u8_3=00 u32_0=0000
+	entries[002C] = (0038): FxUnknown 'Extrusion34' flags=0000 u16_0=022 a0=[000,000,155] index=002C a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00E3 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0037): Sketch2D 'Sketch44'
+	entries[002D] = (0039): FxUnknown 'Extrusion31' flags=0000 u16_0=01F a0=[000,000,118] index=002D a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C0 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0040): Sketch2D 'Sketch39'
+	entries[002E] = (003A): FxUnknown 'Extrusion32' flags=0000 u16_0=020 a0=[000,000,119] index=002E a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C1 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0047): Sketch2D 'Sketch24'
+	entries[002F] = (003B): Sketch2D 'Sketch40' flags=4004 u16_0=021 a0=[000,000,11B] index=002F a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C3 u8_3=00 u32_0=0000
+	entries[0030] = (003C): FxUnknown 'Extrusion33' flags=0000 u16_0=021 a0=[000,000,11C] index=0030 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C4 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (003B): Sketch2D 'Sketch40'
+	entries[0031] = (000B): E82BC461 'Circular Pattern9' u32_2=000C u8_0=00 a0=[00,00,00,00,01] u16_0=009 a4=[000,000,135] index=0031 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C5 u8_3=00 u32_0=0000 uid_0={b6c22694-11d2-3626-6000-2cab01f31bb0} u32_3=0000
+		*lst0[0000] = (003F): FxUnknown 'Extrusion30'
+		*lst0[0001] = (0039): FxUnknown 'Extrusion31'
+		*lst0[0002] = (003A): FxUnknown 'Extrusion32'
+		*lst0[0003] = (003C): FxUnknown 'Extrusion33'
+		lst1[0000] = (0062): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,137] index=8000000B a2a=8000000B u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C7 u8_3=00 u32_0=0000 u32_1=0001
+		lst1[0001] = (0063): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,138] index=8000000B a2a=8000000B u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C8 u8_3=00 u32_0=0000 u32_1=0002
+		lst1[0002] = (0064): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,139] index=8000000B a2a=8000000B u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00C9 u8_3=00 u32_0=0000 u32_1=0003
+		*items[0000] = (000C): FolderBrowser 'Folder'
+		*items[0001] = (0062): 761C4FA0 'Occurrence'
+		*items[0002] = (0063): 761C4FA0 'Occurrence'
+		*items[0003] = (0064): 761C4FA0 'Occurrence'
+	entries[0032] = (003D): Sketch2D 'Sketch38' flags=0404 u16_0=026 a0=[000,000,110] index=0032 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00BA u8_3=00 u32_0=0000
+	entries[0033] = (003E): FxUnknown 'Chamfer2' flags=0000 u16_0=002 a0=[000,000,112] index=0033 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00BC u8_3=00 u32_0=0000 uid_0={f900713f-11d2-6f8b-6000-f0a89dccefb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[0034] = (003F): FxUnknown 'Extrusion30' flags=0000 u16_0=01E a0=[000,000,114] index=0034 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00BD u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0054): Sketch2D 'Sketch14'
+	entries[0035] = (0040): Sketch2D 'Sketch39' flags=4004 u16_0=01F a0=[000,000,116] index=0035 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00BF u8_3=00 u32_0=0000
+	entries[0036] = (0041): Sketch2D 'Sketch32' flags=0404 u16_0=020 a0=[000,000,0B2] index=0036 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0079 u8_3=00 u32_0=0000
+	entries[0037] = (0042): Sketch2D 'Sketch33' flags=0404 u16_0=021 a0=[000,000,0B3] index=0037 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=007A u8_3=00 u32_0=0000
+	entries[0038] = (0043): FxUnknown 'cable 1' flags=0000 u16_0=022 a0=[000,000,0DE] index=0038 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0098 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0041): Sketch2D 'Sketch32'
+	entries[0039] = (0044): FxUnknown 'cable 2' flags=0000 u16_0=023 a0=[000,000,0DF] index=0039 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0099 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0042): Sketch2D 'Sketch33'
+	entries[003A] = (0009): E82BC461 'cable path' u32_2=000A u8_0=00 a0=[00,00,00,00,00] a4=[000,000,0E9] index=003A a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=009B u8_3=00 u32_0=0000 uid_0={b6c22694-11d2-3626-6000-2cab01f31bb0} u32_3=0000
+		*lst0[0000] = (0043): FxUnknown 'cable 1'
+		*lst0[0001] = (0044): FxUnknown 'cable 2'
+		lst1[0000] = (005C): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0EB] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=009D u8_3=00 u32_0=0000 u32_1=0001
+		lst1[0001] = (005D): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0EC] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=009E u8_3=00 u32_0=0000 u32_1=0002
+		lst1[0002] = (005E): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0ED] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=009F u8_3=00 u32_0=0000 u32_1=0003
+		lst1[0003] = (005F): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0EE] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00A0 u8_3=00 u32_0=0000 u32_1=0004
+		lst1[0004] = (0060): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0EF] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00A1 u8_3=00 u32_0=0000 u32_1=0005
+		lst1[0005] = (0061): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0F0] index=80000009 a2a=80000009 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00A2 u8_3=00 u32_0=0000 u32_1=0006
+		*items[0000] = (000A): FolderBrowser 'Folder'
+		*items[0001] = (005C): 761C4FA0 'Occurrence'
+		*items[0002] = (005D): 761C4FA0 'Occurrence'
+		*items[0003] = (005E): 761C4FA0 'Occurrence'
+		*items[0004] = (005F): 761C4FA0 'Occurrence'
+		*items[0005] = (0060): 761C4FA0 'Occurrence'
+		*items[0006] = (0061): 761C4FA0 'Occurrence'
+	entries[003B] = (0045): FxUnknown 'valve screws' flags=0000 u16_0=024 a0=[000,000,06C] index=003B a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0050 u8_3=00 u32_0=0000 uid_0={1f757d1a-11d2-549c-a000-20803603c8c9} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0048): Sketch2D 'Sketch27'
+	entries[003C] = (0007): E82BC461 'odor valves' u32_2=0008 u8_0=00 a0=[00,00,00,00,00] a4=[000,000,0A4] index=003C a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=006C u8_3=00 u32_0=0000 uid_0={b6c22694-11d2-3626-6000-2cab01f31bb0} u32_3=0000
+		*lst0[0000] = (004F): FxUnknown 'bore to chamber - NC odor valve'
+		*lst0[0001] = (0051): FxUnknown 'odor in - COM odor valve'
+		*lst0[0002] = (0053): FxUnknown 'waste - NO odor valve'
+		*lst0[0003] = (0045): FxUnknown 'valve screws'
+		lst1[0000] = (0059): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0A6] index=80000007 a2a=80000007 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=006E u8_3=00 u32_0=0000 u32_1=0001
+		lst1[0001] = (005A): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0A7] index=80000007 a2a=80000007 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=006F u8_3=00 u32_0=0000 u32_1=0002
+		lst1[0002] = (005B): 761C4FA0 'Occurrence' flags=0000 u16_0=000 a0=[000,000,0A8] index=80000007 a2a=80000007 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0070 u8_3=00 u32_0=0000 u32_1=0003
+		*items[0000] = (0008): FolderBrowser 'Folder'
+		*items[0001] = (0059): 761C4FA0 'Occurrence'
+		*items[0002] = (005A): 761C4FA0 'Occurrence'
+		*items[0003] = (005B): 761C4FA0 'Occurrence'
+	entries[003D] = (0046): FxUnknown 'Chamfer1' flags=0000 u16_0=001 a0=[000,000,0AE] index=003D a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0075 u8_3=00 u32_0=0000 uid_0={f900713f-11d2-6f8b-6000-f0a89dccefb0} u32_2=0000 txt_0='' s32_0=-1
+	entries[003E] = (0047): Sketch2D 'Sketch24' flags=0404 u16_0=018 a0=[000,000,057] index=003E a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0041 u8_3=00 u32_0=0000
+	entries[003F] = (0048): Sketch2D 'Sketch27' flags=0404 u16_0=01B a0=[000,000,05E] index=003F a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0046 u8_3=00 u32_0=0000
+	entries[0040] = (0049): FxUnknown 'big opening' flags=0000 u16_0=01C a0=[000,000,01A] index=0040 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0016 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (001B): Sketch2D 'Sketch2'
+	entries[0041] = (004A): Sketch2D 'Sketch3' flags=4004 u16_0=01D a0=[000,000,01B] index=0041 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0017 u8_3=00 u32_0=0000
+	entries[0042] = (004B): FxUnknown 'chamber' flags=0000 u16_0=01E a0=[000,000,01C] index=0042 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0018 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (004A): Sketch2D 'Sketch3'
+	entries[0043] = (004C): Sketch2D 'Sketch4' flags=4004 u16_0=01F a0=[000,000,021] index=0043 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0019 u8_3=00 u32_0=0000
+	entries[0044] = (004D): FxUnknown 'small opening' flags=0000 u16_0=020 a0=[000,000,022] index=0044 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001A u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (004C): Sketch2D 'Sketch4'
+	entries[0045] = (004E): Sketch2D 'Sketch5' flags=4004 u16_0=021 a0=[000,000,023] index=0045 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001B u8_3=00 u32_0=0000
+	entries[0046] = (004F): FxUnknown 'bore to chamber - NC odor valve' flags=0000 u16_0=022 a0=[000,000,02A] index=0046 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001C u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (004E): Sketch2D 'Sketch5'
+	entries[0047] = (0050): Sketch2D 'Sketch6' flags=0004 u16_0=006 a0=[000,000,02B] index=0047 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001D u8_3=00 u32_0=0000
+	entries[0048] = (0051): FxUnknown 'odor in - COM odor valve' flags=0000 u16_0=007 a0=[000,000,02C] index=0048 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001E u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0050): Sketch2D 'Sketch6'
+	entries[0049] = (0052): Sketch2D 'Sketch7' flags=0004 u16_0=007 a0=[000,000,02D] index=0049 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=001F u8_3=00 u32_0=0000
+	entries[004A] = (0053): FxUnknown 'waste - NO odor valve' flags=0000 u16_0=008 a0=[000,000,030] index=004A a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0020 u8_3=00 u32_0=0000 uid_0={0ca91131-11d0-838b-0008-19b00524dc09} u32_2=0000 txt_0='' s32_0=-1
+		*items[0000] = (0052): Sketch2D 'Sketch7'
+	entries[004B] = (0054): Sketch2D 'Sketch14' flags=0404 u16_0=00E a0=[000,000,03E] index=004B a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=002D u8_3=00 u32_0=0000
+(0003): Hospital a0=[000,000,0A3] u8_0=01
+(0004): 189B3560 'NbDefault' grIdx=0000
+	lst0[0000] = (0055): DF9CA7B0 'NbDefault' lst0=[] u16=000 val=''
+		ref_0 = (0067): NBxEntry 'Engineer's Notebook' index=004C a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=000C u8_3=00 u32_0=0000 str0='NBxNotebook' a4=[000,000,000] u8_4=00
+(0056): 44664C6F 'Analysis' index=0000 a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00B5 u8_3=00 u32_0=0000 txt_1='PartInterfaceFolderEntry' b0=00
+	lst0[0000] = (0068): AnalysisToolEntry 'CrossSection1' index=0001 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00B6 u8_3=00 u32_0=0000 txt_1='PartInterfaceFolderEntry' b0=00 a0=[004D,004E]
+	lst0[0001] = (0069): AnalysisToolEntry 'CrossSection2' index=0001 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=00B7 u8_3=00 u32_0=0000 txt_1='PartInterfaceFolderEntry' b0=00 a0=[004F,0050]
+(0057): 9E77CCC1 index=0001 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0001 u8_3=00 u32_0=0000 txt_1='PartInterfaceFolderEntry' b0=00
+(0058): 18BAA333 flags=0000 u16_0=00F a0=[000,000,014] index=0001 a2a=0000 u8_1a=01 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0010 u8_3=00 u32_0=0000
+	*items[0000] = (006A): B4278FFF
+(006A): B4278FFF flags=0000 u16_0=001 a0=[000,000,015] index=0000 a2a=0000 u8_1a=00 a2=[] u8_1b=01 a3=[000,000,000] b_1=False u8_2=00 grIdx=0011 u8_3=00 u32_0=0000	aX=[11 00 00 00 01 00 00 00]

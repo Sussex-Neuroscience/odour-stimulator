@@ -1,0 +1,42 @@
+Design Tracking Control:
+ 13 -                NextVersion: '15'
+ 14 -             CurrentVersion: '14'
+ 15 -            PreviousVersion: '13'
+ 16 -                LastSavedBy: 'Admin'
+ 17 -              LastSavedDate: 2014/02/24 11:36:24.277930
+ 18 -                         18: 'F54B19F8-42D7-9340-DA7B-D49C6890D824'
+ 21 -                         21: '57DD04C5-4AA8-6133-99F8-5D884F127048'
+ 22 -               BuildVersion: 180170000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2013/10/01 16:37:38.766864
+  5 -                 PartNumber: 'nozzle_big'
+ 20 -                   Material: 'Glass'
+ 21 -              PartPropRevId: '075B1206-E60B-453E-8898-801C7909EFFC'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'Admin'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2014 (Build 180170000, 170)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2014\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Glass\n#MaterialInv_002'
+ 72 -                 Appearance: 'Clear'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'Admin'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Default</Category><StyleName>Clear</StyleName><Protein><MaterialId>Glazing-012</MaterialId><Scale>1,000000</Scale><Rotation>0,000000</Rotation></Protein></PartActiveColorStyle>'
+

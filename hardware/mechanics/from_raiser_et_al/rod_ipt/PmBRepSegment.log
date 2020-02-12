@@ -1,0 +1,22 @@
+[2014]
+(0001): AcisEntityContainer
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00 wrapperIdx=0007
+		asm = (0008): ASM u32_0=031D schema=0026 fmt='ASM BinaryFile4' selectedKey=80000008 delta_state=12
+			history = (0009): SatHistory s32_0=0 numbers=[0002,0003,0007,0008,0009,000A,000B,000C]
+				delta_states[0002] = (000A): 09780457 data_set=2
+				delta_states[0003] = (000B): 09780457 data_set=3
+				delta_states[0007] = (000C): 09780457 data_set=7
+				delta_states[0008] = (000D): 09780457 data_set=8
+				delta_states[0009] = (000E): 09780457 data_set=9
+				delta_states[000A] = (000F): 09780457 data_set=10
+				delta_states[000B] = (0010): 09780457 data_set=11
+				delta_states[000C] = (0011): 09780457 data_set=12
+				ref_1 = (0012): 09780457 data_set=-1
+(0002): BrepComponent length='mm' angle='deg'
+	components[001D] = (0004): 66085B35 dcCreatorIdx=001D u16_0=102
+	components[005B] = (0005): 66085B35 dcCreatorIdx=005B u16_0=102
+	components[006B] = (0006): 66085B35 dcCreatorIdx=006B u16_0=21A
+	components[0084] = (0007): 66085B35 dcCreatorIdx=0084 u16_0=101
+(0013): AcisEntityContainer
+(0014): FaceMergeData s32_0=0 lst1=[] lst2=[] lst3=[]
+	nameTable = (0015): NameTable lastIdx=0000

@@ -1,0 +1,42 @@
+Design Tracking Control:
+ 13 -                NextVersion: '3'
+ 14 -             CurrentVersion: '2'
+ 15 -            PreviousVersion: '1'
+ 16 -                LastSavedBy: 'Admin'
+ 17 -              LastSavedDate: 2015/05/11 11:22:12.216929
+ 18 -                         18: 'A5FB2ABD-4848-4E58-F19A-FC90C0EA70A0'
+ 21 -                         21: '9EC35059-4DA5-901C-2C0F-65BC6CB26AD1'
+ 22 -               BuildVersion: 180170000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2013/10/01 15:05:52.104901
+  5 -                 PartNumber: 'body'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: 'FE32AD76-3025-494D-957B-12265C3123CA'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'Admin'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2014 (Build 180170000, 170)'
+ 71 -         MaterialIdentifier: 'R:\\Application\\App\\Materials\\InventorMaterialLibrary\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default(1)'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'Admin'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Miscellaneous</Category><StyleName>Default(1)</StyleName><Protein><MaterialId>InvGen-071</MaterialId><Scale>1,000000</Scale><Rotation>0,000000</Rotation></Protein></PartActiveColorStyle>'
+

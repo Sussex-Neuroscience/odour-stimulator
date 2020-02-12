@@ -1,0 +1,262 @@
+[2014]
+(0001): AcisEntityContainer
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00 wrapperIdx=00BE
+		asm = (000F): ASM u32_0=031D schema=0026 fmt='ASM BinaryFile4' selectedKey=8000000F delta_state=169
+			history = (0010): SatHistory s32_0=0 numbers=[0002,0051,0053,0054,0056,0057,0064,0065,008B,008C,0096,0097,0099,009A,009C,009D,009F,00A0,00A5,00A7,00A8,00A9]
+				delta_states[0002] = (0011): 09780457 data_set=2
+				delta_states[0051] = (0012): 09780457 data_set=81
+					items[0000] = (0028): 766EA5E5 a0=[0012,0000] s32_1=-1 wrapperIdx=00BE
+						*root = (0010): SatHistory
+						*nameTable = (0003): AsmEntityWrapper
+						*asm = (000F): ASM
+				delta_states[0053] = (0013): 09780457 data_set=83
+				delta_states[0054] = (0014): 09780457 data_set=84
+				delta_states[0056] = (0015): 09780457 data_set=86
+				delta_states[0057] = (0016): 09780457 data_set=87
+				delta_states[0064] = (0017): 09780457 data_set=100
+				delta_states[0065] = (0018): 09780457 data_set=101
+				delta_states[008B] = (0019): 09780457 data_set=139
+				delta_states[008C] = (001A): 09780457 data_set=140
+				delta_states[0096] = (001B): 09780457 data_set=150
+				delta_states[0097] = (001C): 09780457 data_set=151
+					items[0000] = (0029): 632A4BBA a0=[001C,0041] a1=[0000,0100] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (004C): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[042F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+					items[0001] = (002A): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0001] = (004B): NameTable
+						*a6[0001] = (004B): NameTable
+					items[0002] = (002B): 632A4BBA a0=[001C,0041] a1=[0000,0200] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (004E): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0481,FFFFFFFF]] u32_2=0000 a1=[0000,000F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0003] = (002C): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0002] = (004B): NameTable
+						*a6[0002] = (004B): NameTable
+					items[0004] = (002D): BA0B8C23 a0=[001C,0014] u32_0=0002 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[0002] = (004B): NameTable
+						*a3[0001] = (004B): NameTable
+						*a3[0001] = (004B): NameTable
+						*a5[0001] = (004B): NameTable
+						*a6[0002] = (004B): NameTable
+						*a6[0001] = (004B): NameTable
+					items[0005] = (002E): 632A4BBA a0=[001C,0041] a1=[0000,0300] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (004F): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[042F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,000C,0000,0000,0000,0000,0000,0000,0000]
+					items[0006] = (002F): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0003] = (004B): NameTable
+						*a6[0003] = (004B): NameTable
+					items[0007] = (0030): 632A4BBA a0=[001C,0041] a1=[0000,0400] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0050): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0481,FFFFFFFF]] u32_2=0000 a1=[0000,000D,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0008] = (0031): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0004] = (004B): NameTable
+						*a6[0004] = (004B): NameTable
+					items[0009] = (0032): BA0B8C23 a0=[001C,0014] u32_0=0004 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[0004] = (004B): NameTable
+						*a3[0003] = (004B): NameTable
+						*a3[0003] = (004B): NameTable
+						*a5[0003] = (004B): NameTable
+						*a6[0004] = (004B): NameTable
+						*a6[0003] = (004B): NameTable
+					items[000A] = (0033): 632A4BBA a0=[001C,0041] a1=[0000,0500] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0051): 7E5D2868 u32_0=0005 a0=[0,0,0,0,0,180,0] lst1=[[0359,FFFFFFFF]]
+					items[000B] = (0034): 632A4BBA a0=[001C,0041] a1=[0000,0600] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0052): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0000 a1=[0000,0009,0014,0000,0000,0000,0000,0000,0000,0000]
+						a2[0005] = (004B): NameTable lastIdx=000A
+							entries[0001] = (0057): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[042F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+							entries[0002] = (0058): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0481,FFFFFFFF]] u32_2=0000 a1=[0000,000F,0014,0000,0000,0000,0000,0000,0000,0000]
+							entries[0003] = (0059): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[042F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,000C,0000,0000,0000,0000,0000,0000,0000]
+							entries[0004] = (005A): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0481,FFFFFFFF]] u32_2=0000 a1=[0000,000D,0014,0000,0000,0000,0000,0000,0000,0000]
+							entries[0005] = (005B): 7E5D2868 u32_0=0005 a0=[0,0,0,0,0,180,0] lst1=[[0359,FFFFFFFF]]
+							entries[0006] = (005C): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0001 a1=[8000004B,0005,0000,0009,0014,0000,0000,0000,0000,0000]	aX=[00 00 00 00 00 00 00 00]
+							entries[0007] = (005D): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0001 a1=[8000004B,0005,0000,0007,0014,0000,0000,0000,0000,0000]	aX=[00 00 00 00 00 00 00 00]
+							entries[0008] = (005E): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0001 a1=[8000004B,0005,0000,0000,000C,0000,0000,0000,0000,0000]	aX=[00 00 00 00 00 00 00 00]
+							entries[0009] = (005F): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[04C8,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+							entries[000A] = (0060): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[050F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+					items[000C] = (0035): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0006] = (004B): NameTable
+						*a6[0006] = (004B): NameTable
+					items[000D] = (0036): BA0B8C23 a0=[001C,0014] u32_0=0003 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[0004] = (004B): NameTable
+						*a2[0003] = (004B): NameTable
+						*a3[0006] = (004B): NameTable
+						*a3[0006] = (004B): NameTable
+						*a5[0006] = (004B): NameTable
+						*a6[0003] = (004B): NameTable
+						*a6[0004] = (004B): NameTable
+						*a6[0006] = (004B): NameTable
+					items[000E] = (0037): 632A4BBA a0=[001C,0041] a1=[0000,0700] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0053): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0000 a1=[0000,0007,0014,0000,0000,0000,0000,0000,0000,0000]
+						*a2[0005] = (004B): NameTable
+					items[000F] = (0038): BA0B8C23 a0=[001C,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0007] = (004B): NameTable
+						*a6[0007] = (004B): NameTable
+					items[0010] = (0039): BA0B8C23 a0=[001C,0014] u32_0=0001 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[0002] = (004B): NameTable
+						*a2[0001] = (004B): NameTable
+						*a3[0007] = (004B): NameTable
+						*a3[0007] = (004B): NameTable
+						*a5[0007] = (004B): NameTable
+						*a6[0001] = (004B): NameTable
+						*a6[0002] = (004B): NameTable
+						*a6[0007] = (004B): NameTable
+				delta_states[0099] = (001D): 09780457 data_set=153
+				delta_states[009A] = (001E): 09780457 data_set=154
+					items[0000] = (003A): 632A4BBA a0=[001E,0041] a1=[0000,0800] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0054): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[0181,FFFFFFFF]] u32_2=0000 a1=[0000,0000,000C,0000,0000,0000,0000,0000,0000,0000]
+						*a2[0005] = (004B): NameTable
+					items[0001] = (003B): BA0B8C23 a0=[001E,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0008] = (004B): NameTable
+						*a6[0008] = (004B): NameTable
+					items[0002] = (003C): 632A4BBA a0=[001E,0041] a1=[0000,0900] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0055): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[04C8,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+					items[0003] = (003D): BA0B8C23 a0=[001E,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[0009] = (004B): NameTable
+						*a6[0009] = (004B): NameTable
+					items[0004] = (003E): BA0B8C23 a0=[001E,0014] u32_0=0009 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[0009] = (004B): NameTable
+						*a3[0008] = (004B): NameTable
+						*a3[0008] = (004B): NameTable
+						*a5[0008] = (004B): NameTable
+						*a6[0009] = (004B): NameTable
+						*a6[0008] = (004B): NameTable
+				delta_states[009C] = (001F): 09780457 data_set=156
+					items[0000] = (003F): C620657B a0=[001F,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00D9 lst2=[[04DE,FFFFFFFF]] u32_3=00CB
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0009] = (004B): NameTable
+						*nameTables[0008] = (004B): NameTable
+					items[0001] = (0040): C620657B a0=[001F,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00DF lst2=[[0502,FFFFFFFF]] u32_3=00CB
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0009] = (004B): NameTable
+						*nameTables[0008] = (004B): NameTable
+					items[0002] = (0041): C620657B a0=[001F,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00D8 lst2=[[04F1,FFFFFFFF]] u32_3=00CB
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0009] = (004B): NameTable
+						*nameTables[0008] = (004B): NameTable
+					items[0003] = (0042): C620657B a0=[001F,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00DB lst2=[[04E5,FFFFFFFF]] u32_3=00CB
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0009] = (004B): NameTable
+						*nameTables[0008] = (004B): NameTable
+					items[0004] = (0043): C620657B a0=[001F,0022] u32_0=00D9 lst1=[[04DE,FFFFFFFF]] u32_1=00CB u32_2=0000 lst2=[] u32_3=0000
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a2[0009] = (004B): NameTable
+						*a2[0008] = (004B): NameTable
+					items[0005] = (0044): C620657B a0=[001F,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00D9 lst2=[[04DE,FFFFFFFF]] u32_3=00CB
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0009] = (004B): NameTable
+						*nameTables[0008] = (004B): NameTable
+				delta_states[009D] = (0020): 09780457 data_set=157
+					items[0000] = (0045): 632A4BBA a0=[0020,0041] a1=[0000,0A00] u16_1=100
+						*root = (0010): SatHistory
+						*nameTable = (004B): NameTable
+						ref_1 = (0056): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[050F,FFFFFFFF]] u32_2=0000 a1=[0000,0000,0004,0000,0000,0000,0000,0000,0000,0000]
+					items[0001] = (0046): BA0B8C23 a0=[0020,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*a5[000A] = (004B): NameTable
+						*a6[000A] = (004B): NameTable
+					items[0002] = (0047): BA0B8C23 a0=[0020,0014] u32_0=000A a4=[0000,0000,0000]
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*ref_1 = (004B): NameTable
+						*a2[000A] = (004B): NameTable
+						*a3[0008] = (004B): NameTable
+						*a3[0009] = (004B): NameTable
+						*a3[0008] = (004B): NameTable
+						*a5[0008] = (004B): NameTable
+						*a6[000A] = (004B): NameTable
+						*a6[0009] = (004B): NameTable
+						*a6[0008] = (004B): NameTable
+				delta_states[009F] = (0021): 09780457 data_set=159
+					items[0000] = (0048): C620657B a0=[0021,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00E8 lst2=[[055D,FFFFFFFF]] u32_3=00B4
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0001] = (004B): NameTable
+						*nameTables[0002] = (004B): NameTable
+						*nameTables[0007] = (004B): NameTable
+					items[0001] = (0049): C620657B a0=[0021,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00E3 lst2=[[0540,FFFFFFFF]] u32_3=00B4
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0001] = (004B): NameTable
+						*nameTables[0002] = (004B): NameTable
+						*nameTables[0007] = (004B): NameTable
+					items[0002] = (004A): C620657B a0=[0021,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=00E2 lst2=[[053C,FFFFFFFF]] u32_3=00B4
+						*root = (0010): SatHistory
+						*nameTable = (004D): FaceMergeData
+						*nameTables[0001] = (004B): NameTable
+						*nameTables[0002] = (004B): NameTable
+						*nameTables[0007] = (004B): NameTable
+				delta_states[00A0] = (0022): 09780457 data_set=160
+				delta_states[00A5] = (0023): 09780457 data_set=165
+				delta_states[00A7] = (0024): 09780457 data_set=167
+				delta_states[00A8] = (0025): 09780457 data_set=168
+				delta_states[00A9] = (0026): 09780457 data_set=169
+				ref_1 = (0027): 09780457 data_set=-1
+(0002): BrepComponent length='mm' angle='deg'
+	components[0181] = (0004): ABD292FD dcCreatorIdx=0181 u16_0=102	aX=[03 00 00 00 00 00 0B 00 02 00 00 00 DC F9 7E 6A BC 74 C3 3F A8 C6 4B 37 89 41 D0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0D 00 02 00 00 00 DC F9 7E 6A BC 74 C3 3F A8 C6 4B 37 89 41 D0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0F 00 02 00 00 00 DC F9 7E 6A BC 74 C3 3F A8 C6 4B 37 89 41 D0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[01D2] = (0005): ABD292FD dcCreatorIdx=01D2 u16_0=102	aX=[01 00 00 00 00 00 11 00 02 00 00 00 9A 99 99 99 99 99 C9 3F A8 C6 4B 37 89 41 D0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0234] = (0006): ABD292FD dcCreatorIdx=0234 u16_0=102	aX=[01 00 00 00 00 00 16 00 02 00 00 00 9A 99 99 99 99 99 C9 3F A8 C6 4B 37 89 41 D0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0359] = (0007): 66085B35 dcCreatorIdx=0359 u16_0=224
+	components[042F] = (0008): 66085B35 dcCreatorIdx=042F u16_0=102
+	components[0481] = (0009): 66085B35 dcCreatorIdx=0481 u16_0=102
+	components[04C8] = (000A): ABD292FD dcCreatorIdx=04C8 u16_0=102	aX=[01 00 00 00 00 00 0C 00 02 00 00 00 9A 99 99 99 99 99 D9 3F 60 E5 D0 22 DB F9 EE 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[050F] = (000B): ABD292FD dcCreatorIdx=050F u16_0=102	aX=[01 00 00 00 00 00 0C 00 02 00 00 00 9A 99 99 99 99 99 D9 3F 60 E5 D0 22 DB F9 EE 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0574] = (000C): 66085B35 dcCreatorIdx=0574 u16_0=102
+	components[05C6] = (000D): 66085B35 dcCreatorIdx=05C6 u16_0=102
+	components[05DB] = (000E): 66085B35 dcCreatorIdx=05DB u16_0=104
+(004D): FaceMergeData s32_0=0 lst1=[(8000004B,0006,8000004B,[0006,FFFFFFFF]),(8000004B,0006,8000004B,[0004,0000]),(8000004B,0006,8000004B,[0003,0001]),(8000004B,0007,8000004B,[0007,FFFFFFFF]),(8000004B,0007,8000004B,[0002,0003]),(8000004B,0007,8000004B,[0001,0004]),(8000004B,0008,8000004B,[0008,FFFFFFFF]),(8000004B,0008,8000004B,[0009,0006]),(8000004B,0008,8000004B,[000A,0007])] lst2=[(8000004B,0006,8000004B,[0006]),(8000004B,0004,8000004B,[0006]),(8000004B,0003,8000004B,[0006]),(8000004B,0007,8000004B,[0007]),(8000004B,0002,8000004B,[0007]),(8000004B,0001,8000004B,[0007]),(8000004B,0008,8000004B,[0008]),(8000004B,0009,8000004B,[0008]),(8000004B,000A,8000004B,[0008])] lst3=[[00D8,[04F1,FFFFFFFF],00CB,[8000004B,0009],[8000004B,0008]],[00D9,[04DE,FFFFFFFF],00CB,[8000004B,0009],[8000004B,0008]],[00DB,[04E5,FFFFFFFF],00CB,[8000004B,0009],[8000004B,0008]],[00DF,[0502,FFFFFFFF],00CB,[8000004B,0009],[8000004B,0008]],[00E2,[053C,FFFFFFFF],00B4,[8000004B,0001],[8000004B,0002],[8000004B,0007]],[00E3,[0540,FFFFFFFF],00B4,[8000004B,0001],[8000004B,0002],[8000004B,0007]],[00E8,[055D,FFFFFFFF],00B4,[8000004B,0001],[8000004B,0002],[8000004B,0007]]]
+	*nameTable = (004B): NameTable
+	*lst0[6,2] =(004B): NameTable
+	*lst0[7,5] =(004B): NameTable
+	*lst0[8,8] =(004B): NameTable
+(0061): AcisEntityContainer

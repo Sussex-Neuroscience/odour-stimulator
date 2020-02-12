@@ -1,0 +1,42 @@
+Design Tracking Control:
+ 13 -                NextVersion: '6'
+ 14 -             CurrentVersion: '5'
+ 15 -            PreviousVersion: '4'
+ 16 -                LastSavedBy: 'Admin'
+ 17 -              LastSavedDate: 2013/10/10 14:14:38.348673
+ 18 -                         18: '701FCD48-43DA-06EE-BA52-84ADEB1A1671'
+ 21 -                         21: 'E4F942B9-45C8-5B69-E67E-639824C6CBE8'
+ 22 -               BuildVersion: 180170000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2013/10/04 10:14:25.011653
+  5 -                 PartNumber: 'valve'
+ 20 -                   Material: 'PVC-Piping'
+ 21 -              PartPropRevId: '0F6D2A12-C959-4F46-BAAC-2938F451C8D8'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'Admin'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2014 (Build 180170000, 170)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2014\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:PVC-Piping\n#MaterialInv_056'
+ 72 -                 Appearance: 'Smooth - White(3)'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'Admin'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Default</Category><StyleName>Smooth - White(3)</StyleName><Protein><MaterialId>Plastic-016</MaterialId><Scale>1,000000</Scale><Rotation>0,000000</Rotation></Protein></PartActiveColorStyle>'
+

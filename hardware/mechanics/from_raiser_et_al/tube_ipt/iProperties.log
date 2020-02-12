@@ -1,0 +1,42 @@
+Design Tracking Control:
+ 13 -                NextVersion: '13'
+ 14 -             CurrentVersion: '12'
+ 15 -            PreviousVersion: '11'
+ 16 -                LastSavedBy: 'Admin'
+ 17 -              LastSavedDate: 2014/02/24 11:36:24.734956
+ 18 -                         18: 'D93C423C-4356-D5A9-976F-69BAAD15B844'
+ 21 -                         21: '6A7A786C-4CD9-E93E-80B4-578E21E93264'
+ 22 -               BuildVersion: 180170000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2013/10/04 12:33:53.356295
+  5 -                 PartNumber: 'tube'
+ 20 -                   Material: 'Glass'
+ 21 -              PartPropRevId: '6C41D354-45A6-48FD-AF7F-E81F0BE161F5'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'Admin'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2014 (Build 180170000, 170)'
+ 71 -         MaterialIdentifier: 'C:\\Users\\Public\\Documents\\Autodesk\\Inventor 2014\\Design Data\\Materials\\InventorMaterialLibrary.adsklib#1:Glass\n#MaterialInv_002'
+ 72 -                 Appearance: 'Clear'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'Admin'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Default</Category><StyleName>Clear</StyleName><Protein><MaterialId>Glazing-012</MaterialId><Scale>1,000000</Scale><Rotation>0,000000</Rotation></Protein></PartActiveColorStyle>'
+

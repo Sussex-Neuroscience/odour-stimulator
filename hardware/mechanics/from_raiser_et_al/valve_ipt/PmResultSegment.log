@@ -1,0 +1,48 @@
+[2014]
+(0001): 128AAF24 lst1={(0002,[0181,01D2,0234,0359,042F,0481,04C8,050F,0574,05C6,05DB],0001,0002,[],(-3.6053,-0.632738,0)-(0.575704,0.632262,1.194))} lst2={[0181,0001],[01D2,0000],[0234,0000],[0359,0000],[042F,0001],[0481,0001],[04C8,0000],[050F,0000],[0574,0001],[05C6,0001],[05DB,0000]} lst3={(0145,001,01,00,(-0.667296,-0.582738,0)-(0.475704,0.682262,0)),(0192,001,01,00,(-0.667296,0,0.254)-(0.475704,0.782262,0.254)),(01E3,001,01,00,(-0.667296,-0.682738,0.254)-(0.475704,0,0.254)),(03C3,001,01,00,(-0.567296,-0.597,0.597)-(-0.567296,0.597,1.194)),(0440,001,01,00,(-0.567296,-0.597,0.597)-(0.575704,0.597,0.597)),(0492,001,01,00,(-0.195796,0,0.254)-(0.204204,0.832262,0.254)),(04D9,001,01,00,(-0.195796,-0.832738,0.254)-(0.204204,0,0.254)),(0520,001,01,00,(-0.567296,-0.597,0)-(-0.567296,0.597,1.194)),(0599,001,01,00,(-3.0053,-0.526743,-0.436312)-(-3.0053,0.526743,1.75928))} lst4={} lst5={} lst6={(0002,100,0181,(385, 466, 564, 857, 1071, 1153, 1224, 1295, 1396, 1478, 1499))} lst7={} u8_1=01 lst8={} u8_2=01
+(0002): F645595C u32_0=071D schema=0026 u32_2=0000 u8_0=01 s32_0=-1 lastKey=32
+	ref_1 = (0003): SatHistory s32_0=0 numbers=[0006,0007,0008,0009,000A,000B,000C,000D,000E,000F,0010,0011,0012,0013,0014,0015,0016,0017,0018,0019,001A,001B,001D,001E,001F,0020]
+		delta_states[0006] = (0004): 09780457 delta_state=6
+		delta_states[0007] = (0005): 09780457 delta_state=7
+		delta_states[0008] = (0006): 09780457 delta_state=8
+		delta_states[0009] = (0007): 09780457 delta_state=9
+		delta_states[000A] = (0008): 09780457 delta_state=10
+			lst0[0000] = (001F): 809BE56F root=80000003 flags=1004 ref_0=80000001	aX=[00 01]
+			lst0[0001] = (0020): 80CAECF1 root=80000003 flags=400004 ref_0=80000001	aX=[00 01]
+			lst0[0002] = (0021): E9B04618 root=80000003 flags=1000004 ref_0=80000001	aX=[00 01]
+			lst0[0003] = (0022): 0E70AF5C root=80000003 flags=2004 ref_0=80000001 dcBodyIdx=0002
+			lst0[0004] = (0023): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0181
+			lst0[0005] = (0024): E065E15A root=80000003 flags=800004 ref_0=80000001 dcBodyIdx=0002 u32_0=0000 dcCreatorIdx=0181
+			lst0[0006] = (0025): 9147489A root=80000003 flags=80004 ref_0=80000001 dcBodyIdx=0002	aX=[00 01]
+		delta_states[000B] = (0009): 09780457 delta_state=11
+		delta_states[000C] = (000A): 09780457 delta_state=12
+			lst0[0000] = (0026): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=01D2
+		delta_states[000D] = (000B): 09780457 delta_state=13
+		delta_states[000E] = (000C): 09780457 delta_state=14
+			lst0[0000] = (0027): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0234
+		delta_states[000F] = (000D): 09780457 delta_state=15
+		delta_states[0010] = (000E): 09780457 delta_state=16
+			lst0[0000] = (0028): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0359
+		delta_states[0011] = (000F): 09780457 delta_state=17
+		delta_states[0012] = (0010): 09780457 delta_state=18
+			lst0[0000] = (0029): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=042F
+		delta_states[0013] = (0011): 09780457 delta_state=19
+		delta_states[0014] = (0012): 09780457 delta_state=20
+			lst0[0000] = (002A): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0481
+		delta_states[0015] = (0013): 09780457 delta_state=21
+		delta_states[0016] = (0014): 09780457 delta_state=22
+			lst0[0000] = (002B): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=04C8
+		delta_states[0017] = (0015): 09780457 delta_state=23
+		delta_states[0018] = (0016): 09780457 delta_state=24
+			lst0[0000] = (002C): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=050F
+		delta_states[0019] = (0017): 09780457 delta_state=25
+		delta_states[001A] = (0018): 09780457 delta_state=26
+			lst0[0000] = (002D): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0574
+		delta_states[001B] = (0019): 09780457 delta_state=27
+		delta_states[001D] = (001A): 09780457 delta_state=29
+		delta_states[001E] = (001B): 09780457 delta_state=30
+			lst0[0000] = (002E): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=05C6
+		delta_states[001F] = (001C): 09780457 delta_state=31
+		delta_states[0020] = (001D): 09780457 delta_state=32
+			lst0[0000] = (002F): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=05DB
+		ref_1 = (001E): 09780457 delta_state=-1

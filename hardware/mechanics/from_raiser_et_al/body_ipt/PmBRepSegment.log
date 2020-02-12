@@ -1,0 +1,619 @@
+[2014]
+(0001): AcisEntityContainer
+	wrappers[0000] = (0003): AsmEntityWrapper indexDC=0002 u8_0=00 wrapperIdx=35CE
+		asm = (002B): ASM u32_0=031D schema=0026 fmt='ASM BinaryFile4' selectedKey=8000002B delta_state=5538
+			history = (003D): SatHistory s32_0=0 numbers=[0002,05C7,05C8,07E9,0908,0909,090A,090B,090C,090D,0ABA,0AF2,111F,1120,1121,116F,1170,11BD,11BE,11C6,11C7,12BC,1449,144A,1485,1486,148A,148B,148C,14CD,1501,1502,1503,1534,153C,153D,153E,153F,1540,1541,1542,1564,1565,1566,1585,1586,1587,1588,1596,1597,1598,1599,159A,159B,159C,159D,159E,159F,15A0,15A1,15A2]
+				delta_states[0002] = (003E): 09780457 data_set=2
+				delta_states[05C7] = (003F): 09780457 data_set=1479
+					items[0000] = (007C): 766EA5E5 a0=[003F,0000] s32_1=-1 wrapperIdx=35CE
+						*root = (003D): SatHistory
+						*nameTable = (0003): AsmEntityWrapper
+						*asm = (002B): ASM
+				delta_states[05C8] = (0040): 09780457 data_set=1480
+				delta_states[07E9] = (0041): 09780457 data_set=2025
+				delta_states[0908] = (0042): 09780457 data_set=2312
+				delta_states[0909] = (0043): 09780457 data_set=2313
+				delta_states[090A] = (0044): 09780457 data_set=2314
+				delta_states[090B] = (0045): 09780457 data_set=2315
+				delta_states[090C] = (0046): 09780457 data_set=2316
+				delta_states[090D] = (0047): 09780457 data_set=2317
+				delta_states[0ABA] = (0048): 09780457 data_set=2746
+				delta_states[0AF2] = (0049): 09780457 data_set=2802
+				delta_states[111F] = (004A): 09780457 data_set=4383
+				delta_states[1120] = (004B): 09780457 data_set=4384
+				delta_states[1121] = (004C): 09780457 data_set=4385
+				delta_states[116F] = (004D): 09780457 data_set=4463
+				delta_states[1170] = (004E): 09780457 data_set=4464
+				delta_states[11BD] = (004F): 09780457 data_set=4541
+				delta_states[11BE] = (0050): 09780457 data_set=4542
+				delta_states[11C6] = (0051): 09780457 data_set=4550
+				delta_states[11C7] = (0052): 09780457 data_set=4551
+				delta_states[12BC] = (0053): 09780457 data_set=4796
+				delta_states[1449] = (0054): 09780457 data_set=5193
+				delta_states[144A] = (0055): 09780457 data_set=5194
+				delta_states[1485] = (0056): 09780457 data_set=5253
+				delta_states[1486] = (0057): 09780457 data_set=5254
+					items[0000] = (007D): 632A4BBA a0=[0057,0041] a1=[0000,0100] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B3): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0001] = (007E): BA0B8C23 a0=[0057,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0001] = (00B2): NameTable
+						*a6[0001] = (00B2): NameTable
+					items[0002] = (007F): 632A4BBA a0=[0057,0041] a1=[0000,0200] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B5): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0003] = (0080): BA0B8C23 a0=[0057,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0002] = (00B2): NameTable
+						*a6[0002] = (00B2): NameTable
+					items[0004] = (0081): BA0B8C23 a0=[0057,0014] u32_0=0002 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0002] = (00B2): NameTable
+						*a3[0001] = (00B2): NameTable
+						*a3[0001] = (00B2): NameTable
+						*a5[0001] = (00B2): NameTable
+						*a6[0002] = (00B2): NameTable
+						*a6[0001] = (00B2): NameTable
+					items[0005] = (0082): 632A4BBA a0=[0057,0041] a1=[0000,0300] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B6): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0006] = (0083): BA0B8C23 a0=[0057,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0003] = (00B2): NameTable
+						*a6[0003] = (00B2): NameTable
+					items[0007] = (0084): 632A4BBA a0=[0057,0041] a1=[0000,0400] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B7): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0008] = (0085): BA0B8C23 a0=[0057,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0004] = (00B2): NameTable
+						*a6[0004] = (00B2): NameTable
+					items[0009] = (0086): BA0B8C23 a0=[0057,0014] u32_0=0004 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0004] = (00B2): NameTable
+						*a3[0003] = (00B2): NameTable
+						*a3[0003] = (00B2): NameTable
+						*a5[0003] = (00B2): NameTable
+						*a6[0004] = (00B2): NameTable
+						*a6[0003] = (00B2): NameTable
+				delta_states[148A] = (0058): 09780457 data_set=5258
+					items[0000] = (0087): 632A4BBA a0=[0058,0041] a1=[0000,0500] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B8): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0001] = (0088): 632A4BBA a0=[0058,0041] a1=[0000,0600] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00B9): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0002] = (0089): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0005] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+					items[0003] = (008A): 632A4BBA a0=[0058,0041] a1=[0000,0700] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BA): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0004] = (008B): 632A4BBA a0=[0058,0041] a1=[0000,0800] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BB): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0005] = (008C): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0007] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+					items[0006] = (008D): 632A4BBA a0=[0058,0041] a1=[0000,0900] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BC): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0007] = (008E): 632A4BBA a0=[0058,0041] a1=[0000,0A00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BD): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0008] = (008F): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0009] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+					items[0009] = (0090): 632A4BBA a0=[0058,0041] a1=[0000,0B00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BE): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[000A] = (0091): 632A4BBA a0=[0058,0041] a1=[0000,0C00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00BF): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[000B] = (0092): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[000B] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+					items[000C] = (0093): 632A4BBA a0=[0058,0041] a1=[0000,0D00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C0): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[000D] = (0094): 632A4BBA a0=[0058,0041] a1=[0000,0E00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C1): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[000E] = (0095): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[000D] = (00B2): NameTable
+						*a6[000D] = (00B2): NameTable
+						*a6[000E] = (00B2): NameTable
+					items[000F] = (0096): 632A4BBA a0=[0058,0041] a1=[0000,0F00] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C2): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0010] = (0097): 632A4BBA a0=[0058,0041] a1=[0000,1000] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C3): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0011] = (0098): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[000F] = (00B2): NameTable
+						*a6[000F] = (00B2): NameTable
+						*a6[0010] = (00B2): NameTable
+					items[0012] = (0099): 632A4BBA a0=[0058,0041] a1=[0000,1100] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C4): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0013] = (009A): 632A4BBA a0=[0058,0041] a1=[0000,1200] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C5): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0014] = (009B): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0011] = (00B2): NameTable
+						*a6[0011] = (00B2): NameTable
+						*a6[0012] = (00B2): NameTable
+					items[0015] = (009C): 632A4BBA a0=[0058,0041] a1=[0000,1300] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C6): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0016] = (009D): 632A4BBA a0=[0058,0041] a1=[0000,1400] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C7): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0017] = (009E): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0013] = (00B2): NameTable
+						*a6[0013] = (00B2): NameTable
+						*a6[0014] = (00B2): NameTable
+					items[0018] = (009F): 632A4BBA a0=[0058,0041] a1=[0000,1500] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C8): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[0019] = (00A0): 632A4BBA a0=[0058,0041] a1=[0000,1600] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00C9): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[001A] = (00A1): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0015] = (00B2): NameTable
+						*a6[0015] = (00B2): NameTable
+						*a6[0016] = (00B2): NameTable
+					items[001B] = (00A2): 632A4BBA a0=[0058,0041] a1=[0000,1700] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00CA): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[001C] = (00A3): 632A4BBA a0=[0058,0041] a1=[0000,1800] u16_1=100
+						*root = (003D): SatHistory
+						*nameTable = (00B2): NameTable
+						ref_1 = (00CB): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+					items[001D] = (00A4): BA0B8C23 a0=[0058,0014] u32_0=0000 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*a5[0017] = (00B2): NameTable
+						*a6[0017] = (00B2): NameTable
+						*a6[0018] = (00B2): NameTable
+					items[001E] = (00A5): BA0B8C23 a0=[0058,0014] u32_0=000B a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[000C] = (00B2): NameTable
+						*a2[000B] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a3[0008] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a5[0007] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+					items[001F] = (00A6): BA0B8C23 a0=[0058,0014] u32_0=0009 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[000A] = (00B2): NameTable
+						*a2[0009] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a3[0006] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a5[0005] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+					items[0020] = (00A7): BA0B8C23 a0=[0058,0014] u32_0=000F a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0010] = (00B2): NameTable
+						*a2[000F] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a3[000B] = (00B2): NameTable
+						*a3[000C] = (00B2): NameTable
+						*a3[0008] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a5[0007] = (00B2): NameTable
+						*a6[000F] = (00B2): NameTable
+						*a6[0010] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+					items[0021] = (00A8): BA0B8C23 a0=[0058,0014] u32_0=000D a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[000E] = (00B2): NameTable
+						*a2[000D] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a3[0009] = (00B2): NameTable
+						*a3[000A] = (00B2): NameTable
+						*a3[0006] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a5[0005] = (00B2): NameTable
+						*a6[000D] = (00B2): NameTable
+						*a6[000E] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+					items[0022] = (00A9): BA0B8C23 a0=[0058,0014] u32_0=0013 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0014] = (00B2): NameTable
+						*a2[0013] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a3[000F] = (00B2): NameTable
+						*a3[0010] = (00B2): NameTable
+						*a3[000B] = (00B2): NameTable
+						*a3[000C] = (00B2): NameTable
+						*a3[0008] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a5[0007] = (00B2): NameTable
+						*a6[0013] = (00B2): NameTable
+						*a6[0014] = (00B2): NameTable
+						*a6[000F] = (00B2): NameTable
+						*a6[0010] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+					items[0023] = (00AA): BA0B8C23 a0=[0058,0014] u32_0=0011 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0012] = (00B2): NameTable
+						*a2[0011] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a3[000D] = (00B2): NameTable
+						*a3[000E] = (00B2): NameTable
+						*a3[0009] = (00B2): NameTable
+						*a3[000A] = (00B2): NameTable
+						*a3[0006] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a5[0005] = (00B2): NameTable
+						*a6[0011] = (00B2): NameTable
+						*a6[0012] = (00B2): NameTable
+						*a6[000D] = (00B2): NameTable
+						*a6[000E] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+					items[0024] = (00AB): BA0B8C23 a0=[0058,0014] u32_0=0017 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0018] = (00B2): NameTable
+						*a2[0017] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a3[0013] = (00B2): NameTable
+						*a3[0014] = (00B2): NameTable
+						*a3[000F] = (00B2): NameTable
+						*a3[0010] = (00B2): NameTable
+						*a3[000B] = (00B2): NameTable
+						*a3[000C] = (00B2): NameTable
+						*a3[0008] = (00B2): NameTable
+						*a3[0007] = (00B2): NameTable
+						*a5[0007] = (00B2): NameTable
+						*a6[0017] = (00B2): NameTable
+						*a6[0018] = (00B2): NameTable
+						*a6[0013] = (00B2): NameTable
+						*a6[0014] = (00B2): NameTable
+						*a6[000F] = (00B2): NameTable
+						*a6[0010] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+					items[0025] = (00AC): BA0B8C23 a0=[0058,0014] u32_0=0015 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0016] = (00B2): NameTable
+						*a2[0015] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a3[0011] = (00B2): NameTable
+						*a3[0012] = (00B2): NameTable
+						*a3[000D] = (00B2): NameTable
+						*a3[000E] = (00B2): NameTable
+						*a3[0009] = (00B2): NameTable
+						*a3[000A] = (00B2): NameTable
+						*a3[0006] = (00B2): NameTable
+						*a3[0005] = (00B2): NameTable
+						*a5[0005] = (00B2): NameTable
+						*a6[0015] = (00B2): NameTable
+						*a6[0016] = (00B2): NameTable
+						*a6[0011] = (00B2): NameTable
+						*a6[0012] = (00B2): NameTable
+						*a6[000D] = (00B2): NameTable
+						*a6[000E] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+					items[0026] = (00AD): BA0B8C23 a0=[0058,0014] u32_0=0007 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0017] = (00B2): NameTable
+						*a2[0018] = (00B2): NameTable
+						*a2[0013] = (00B2): NameTable
+						*a2[0014] = (00B2): NameTable
+						*a2[000F] = (00B2): NameTable
+						*a2[0010] = (00B2): NameTable
+						*a2[000B] = (00B2): NameTable
+						*a2[000C] = (00B2): NameTable
+						*a2[0008] = (00B2): NameTable
+						*a2[0007] = (00B2): NameTable
+						*a3[0003] = (00B2): NameTable
+						*a3[0004] = (00B2): NameTable
+						*a3[0003] = (00B2): NameTable
+						*a5[0003] = (00B2): NameTable
+						*a6[0007] = (00B2): NameTable
+						*a6[0008] = (00B2): NameTable
+						*a6[000C] = (00B2): NameTable
+						*a6[000B] = (00B2): NameTable
+						*a6[0010] = (00B2): NameTable
+						*a6[000F] = (00B2): NameTable
+						*a6[0014] = (00B2): NameTable
+						*a6[0013] = (00B2): NameTable
+						*a6[0018] = (00B2): NameTable
+						*a6[0017] = (00B2): NameTable
+						*a6[0004] = (00B2): NameTable
+						*a6[0003] = (00B2): NameTable
+					items[0027] = (00AE): BA0B8C23 a0=[0058,0014] u32_0=0005 a4=[0000,0000,0000]
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*ref_1 = (00B2): NameTable
+						*a2[0015] = (00B2): NameTable
+						*a2[0016] = (00B2): NameTable
+						*a2[0011] = (00B2): NameTable
+						*a2[0012] = (00B2): NameTable
+						*a2[000D] = (00B2): NameTable
+						*a2[000E] = (00B2): NameTable
+						*a2[0009] = (00B2): NameTable
+						*a2[000A] = (00B2): NameTable
+						*a2[0006] = (00B2): NameTable
+						*a2[0005] = (00B2): NameTable
+						*a3[0001] = (00B2): NameTable
+						*a3[0002] = (00B2): NameTable
+						*a3[0001] = (00B2): NameTable
+						*a5[0001] = (00B2): NameTable
+						*a6[0005] = (00B2): NameTable
+						*a6[0006] = (00B2): NameTable
+						*a6[000A] = (00B2): NameTable
+						*a6[0009] = (00B2): NameTable
+						*a6[000E] = (00B2): NameTable
+						*a6[000D] = (00B2): NameTable
+						*a6[0012] = (00B2): NameTable
+						*a6[0011] = (00B2): NameTable
+						*a6[0016] = (00B2): NameTable
+						*a6[0015] = (00B2): NameTable
+						*a6[0002] = (00B2): NameTable
+						*a6[0001] = (00B2): NameTable
+				delta_states[148B] = (0059): 09780457 data_set=5259
+					items[0000] = (00AF): C620657B a0=[0059,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=1081 lst2=[[2301,FFFFFFFF]] u32_3=106F
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*nameTables[0005] = (00B2): NameTable
+						*nameTables[0006] = (00B2): NameTable
+						*nameTables[000A] = (00B2): NameTable
+						*nameTables[0009] = (00B2): NameTable
+						*nameTables[000E] = (00B2): NameTable
+						*nameTables[000D] = (00B2): NameTable
+						*nameTables[0012] = (00B2): NameTable
+						*nameTables[0011] = (00B2): NameTable
+						*nameTables[0016] = (00B2): NameTable
+						*nameTables[0015] = (00B2): NameTable
+						*nameTables[0002] = (00B2): NameTable
+						*nameTables[0001] = (00B2): NameTable
+					items[0001] = (00B0): C620657B a0=[0059,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=1081 lst2=[[1FEF,FFFFFFFF]] u32_3=106F
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*nameTables[0005] = (00B2): NameTable
+						*nameTables[0006] = (00B2): NameTable
+						*nameTables[000A] = (00B2): NameTable
+						*nameTables[0009] = (00B2): NameTable
+						*nameTables[000E] = (00B2): NameTable
+						*nameTables[000D] = (00B2): NameTable
+						*nameTables[0012] = (00B2): NameTable
+						*nameTables[0011] = (00B2): NameTable
+						*nameTables[0016] = (00B2): NameTable
+						*nameTables[0015] = (00B2): NameTable
+						*nameTables[0002] = (00B2): NameTable
+						*nameTables[0001] = (00B2): NameTable
+					items[0002] = (00B1): C620657B a0=[0059,0021] u32_0=0000 lst1=[] u32_1=0000 u32_2=1081 lst2=[[1F59,FFFFFFFF]] u32_3=106F
+						*root = (003D): SatHistory
+						*nameTable = (00B4): FaceMergeData
+						*nameTables[0005] = (00B2): NameTable
+						*nameTables[0006] = (00B2): NameTable
+						*nameTables[000A] = (00B2): NameTable
+						*nameTables[0009] = (00B2): NameTable
+						*nameTables[000E] = (00B2): NameTable
+						*nameTables[000D] = (00B2): NameTable
+						*nameTables[0012] = (00B2): NameTable
+						*nameTables[0011] = (00B2): NameTable
+						*nameTables[0016] = (00B2): NameTable
+						*nameTables[0015] = (00B2): NameTable
+						*nameTables[0002] = (00B2): NameTable
+						*nameTables[0001] = (00B2): NameTable
+				delta_states[148C] = (005A): 09780457 data_set=5260
+				delta_states[14CD] = (005B): 09780457 data_set=5325
+				delta_states[1501] = (005C): 09780457 data_set=5377
+				delta_states[1502] = (005D): 09780457 data_set=5378
+				delta_states[1503] = (005E): 09780457 data_set=5379
+				delta_states[1534] = (005F): 09780457 data_set=5428
+				delta_states[153C] = (0060): 09780457 data_set=5436
+				delta_states[153D] = (0061): 09780457 data_set=5437
+				delta_states[153E] = (0062): 09780457 data_set=5438
+				delta_states[153F] = (0063): 09780457 data_set=5439
+				delta_states[1540] = (0064): 09780457 data_set=5440
+				delta_states[1541] = (0065): 09780457 data_set=5441
+				delta_states[1542] = (0066): 09780457 data_set=5442
+				delta_states[1564] = (0067): 09780457 data_set=5476
+				delta_states[1565] = (0068): 09780457 data_set=5477
+				delta_states[1566] = (0069): 09780457 data_set=5478
+				delta_states[1585] = (006A): 09780457 data_set=5509
+				delta_states[1586] = (006B): 09780457 data_set=5510
+				delta_states[1587] = (006C): 09780457 data_set=5511
+				delta_states[1588] = (006D): 09780457 data_set=5512
+				delta_states[1596] = (006E): 09780457 data_set=5526
+				delta_states[1597] = (006F): 09780457 data_set=5527
+				delta_states[1598] = (0070): 09780457 data_set=5528
+				delta_states[1599] = (0071): 09780457 data_set=5529
+				delta_states[159A] = (0072): 09780457 data_set=5530
+				delta_states[159B] = (0073): 09780457 data_set=5531
+				delta_states[159C] = (0074): 09780457 data_set=5532
+				delta_states[159D] = (0075): 09780457 data_set=5533
+				delta_states[159E] = (0076): 09780457 data_set=5534
+				delta_states[159F] = (0077): 09780457 data_set=5535
+				delta_states[15A0] = (0078): 09780457 data_set=5536
+				delta_states[15A1] = (0079): 09780457 data_set=5537
+				delta_states[15A2] = (007A): 09780457 data_set=5538
+				ref_1 = (007B): 09780457 data_set=-1
+(0002): BrepComponent length='mm' angle='deg'
+	components[0047] = (0004): 66085B35 dcCreatorIdx=0047 u16_0=102
+	components[0099] = (0005): ABD292FD dcCreatorIdx=0099 u16_0=102	aX=[01 00 00 00 00 00 0F 00 02 00 00 00 CD CC CC CC CC CC F4 3F 00 00 00 00 00 00 F8 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[00C5] = (0006): ABD292FD dcCreatorIdx=00C5 u16_0=102	aX=[01 00 00 00 00 00 04 00 02 00 00 00 9A 99 99 99 99 99 D9 3F 00 00 00 00 00 00 E0 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0117] = (0007): ABD292FD dcCreatorIdx=0117 u16_0=102	aX=[01 00 00 00 00 00 0F 00 02 00 00 00 9A 99 99 99 99 99 E9 3F 00 00 00 00 00 00 F8 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[015D] = (0008): ABD292FD dcCreatorIdx=015D u16_0=102	aX=[01 00 00 00 00 00 0B 00 02 00 00 00 34 33 33 33 33 33 C3 3F 67 66 66 66 66 66 01 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[01A8] = (0009): ABD292FD dcCreatorIdx=01A8 u16_0=102	aX=[01 00 00 00 00 00 0C 00 02 00 00 00 34 33 33 33 33 33 C3 3F 34 33 33 33 33 33 E3 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[01F8] = (000A): ABD292FD dcCreatorIdx=01F8 u16_0=102	aX=[01 00 00 00 00 00 0E 00 02 00 00 00 34 33 33 33 33 33 C3 3F 34 33 33 33 33 33 E3 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0B47] = (000B): D797B7B9 dcCreatorIdx=0B47 u16_0=103 a0=[0002,0000] txt1='2' a1=(0,0,0,0.1567,0.6) txt2='0,30' a2=(0.4,0,0) a3=[0002,0000] a4=[101,000,100,000] txt3='' txt4=''	aX=[00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0C2F] = (000C): 6985F652 dcCreatorIdx=0C2F u16_0=108 a0=(0,1,0) a1=(0,-1,0) u32_0=0003 f0=1.0472 b0=False lst0=[]
+		components[015D] = (002C): ABD292FD dcCreatorIdx=015D u16_0=102	aX=[01 00 00 00 00 00 0B 00 02 00 00 00 34 33 33 33 33 33 C3 3F 67 66 66 66 66 66 01 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+		components[01A8] = (002D): 66085B35 dcCreatorIdx=01A8 u16_0=102
+		components[01F8] = (002E): 66085B35 dcCreatorIdx=01F8 u16_0=102
+		components[0B47] = (002F): D797B7B9 dcCreatorIdx=0B47 u16_0=103 a0=[0002,0000] txt1='2' a1=(0,0,0,0.1567,0.6) txt2='0,30' a2=(0.4,0,0) a3=[0002,0000] a4=[101,000,100,000] txt3='' txt4=''	aX=[00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[0CF5] = (000D): 66085B35 dcCreatorIdx=0CF5 u16_0=101
+	components[146A] = (000E): 66085B35 dcCreatorIdx=146A u16_0=102
+	components[147D] = (000F): 66085B35 dcCreatorIdx=147D u16_0=102
+	components[14BC] = (0010): 6985F652 dcCreatorIdx=14BC u16_0=108 a0=(0,1,0) a1=(0,-1,0) u32_0=0006 f0=1.0472 b0=False lst0=[]
+		components[146A] = (0030): 66085B35 dcCreatorIdx=146A u16_0=102
+		components[147D] = (0031): 66085B35 dcCreatorIdx=147D u16_0=102
+	components[19FB] = (0011): 66085B35 dcCreatorIdx=19FB u16_0=101
+	components[1A8F] = (0012): ABD292FD dcCreatorIdx=1A8F u16_0=102	aX=[01 00 00 00 00 00 10 00 02 00 00 00 00 00 00 00 00 00 E0 3F 9A 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[1ACA] = (0013): ABD292FD dcCreatorIdx=1ACA u16_0=102	aX=[01 00 00 00 00 00 05 00 02 00 00 00 34 33 33 33 33 33 C3 3F DB F9 7E 6A BC 74 F7 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[1ADD] = (0014): ABD292FD dcCreatorIdx=1ADD u16_0=102	aX=[01 00 00 00 00 00 14 00 02 00 00 00 00 00 00 00 00 00 E0 3F 9A 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[1B18] = (0015): ABD292FD dcCreatorIdx=1B18 u16_0=102	aX=[01 00 00 00 00 00 05 00 02 00 00 00 34 33 33 33 33 33 C3 3F 4A 0C 02 2B 87 16 FF 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[1B28] = (0016): 6985F652 dcCreatorIdx=1B28 u16_0=108 a0=(0,1,0) a1=(0,-1,0) u32_0=0003 f0=1.0472 b0=False lst0=[]
+		components[1A8F] = (0032): ABD292FD dcCreatorIdx=1A8F u16_0=102	aX=[01 00 00 00 00 00 10 00 02 00 00 00 00 00 00 00 00 00 E0 3F 9A 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+		components[1ACA] = (0033): 66085B35 dcCreatorIdx=1ACA u16_0=102
+		components[1ADD] = (0034): 66085B35 dcCreatorIdx=1ADD u16_0=102
+		components[1B18] = (0035): 66085B35 dcCreatorIdx=1B18 u16_0=102
+	components[1F99] = (0017): D797B7B9 dcCreatorIdx=1F99 u16_0=103 a0=[0002,0000] txt1='2' a1=(0,0,0,0.1567,0.6) txt2='0,30' a2=(0.4,0,0) a3=[0002,0000] a4=[101,000,100,000] txt3='' txt4=''	aX=[00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[202F] = (0018): ABD292FD dcCreatorIdx=202F u16_0=102	aX=[02 00 00 00 00 00 10 00 02 00 00 00 3A 33 33 33 33 33 C3 3F 34 33 33 33 33 33 E3 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 12 00 02 00 00 00 2E 33 33 33 33 33 C3 3F 34 33 33 33 33 33 E3 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[20D8] = (0019): ABD292FD dcCreatorIdx=20D8 u16_0=102	aX=[01 00 00 00 00 00 2A 00 02 00 00 00 00 00 00 00 00 00 E0 3F 9A 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[2105] = (001A): ABD292FD dcCreatorIdx=2105 u16_0=102	aX=[01 00 00 00 00 00 05 00 02 00 00 00 34 33 33 33 33 33 C3 3F B6 F3 FD D4 78 E9 F4 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[21A6] = (001B): ABD292FD dcCreatorIdx=21A6 u16_0=102	aX=[01 00 00 00 00 00 28 00 02 00 00 00 00 00 00 00 00 00 E0 3F 9A 99 99 99 99 99 C9 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[21D3] = (001C): ABD292FD dcCreatorIdx=21D3 u16_0=102	aX=[01 00 00 00 00 00 05 00 02 00 00 00 34 33 33 33 33 33 C3 3F 25 06 81 95 43 8B FC 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[22E7] = (001D): 66085B35 dcCreatorIdx=22E7 u16_0=105
+	components[2345] = (001E): ABD292FD dcCreatorIdx=2345 u16_0=102	aX=[01 00 00 00 00 00 13 00 02 00 00 00 34 33 33 33 33 33 C3 3F 67 66 66 66 66 66 01 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+	components[2355] = (001F): 6985F652 dcCreatorIdx=2355 u16_0=108 a0=(0,1,0) a1=(0,-1,0) u32_0=0002 f0=-1.0472 b0=False lst0=[]
+		components[1F99] = (0036): D797B7B9 dcCreatorIdx=1F99 u16_0=103 a0=[0002,0000] txt1='2' a1=(0,0,0,0.1567,0.6) txt2='0,30' a2=(0.4,0,0) a3=[0002,0000] a4=[101,000,100,000] txt3='' txt4=''	aX=[00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+		components[202F] = (0037): 66085B35 dcCreatorIdx=202F u16_0=102
+		components[20D8] = (0038): 66085B35 dcCreatorIdx=20D8 u16_0=102
+		components[2105] = (0039): 66085B35 dcCreatorIdx=2105 u16_0=102
+		components[21A6] = (003A): 66085B35 dcCreatorIdx=21A6 u16_0=102
+		components[21D3] = (003B): 66085B35 dcCreatorIdx=21D3 u16_0=102
+		components[2345] = (003C): 66085B35 dcCreatorIdx=2345 u16_0=102
+	components[2383] = (0020): 66085B35 dcCreatorIdx=2383 u16_0=21A
+	components[2391] = (0021): 66085B35 dcCreatorIdx=2391 u16_0=21A
+	components[239F] = (0022): 66085B35 dcCreatorIdx=239F u16_0=21A
+	components[23AD] = (0023): 66085B35 dcCreatorIdx=23AD u16_0=21A
+	components[23BB] = (0024): 66085B35 dcCreatorIdx=23BB u16_0=21A
+	components[23C9] = (0025): 66085B35 dcCreatorIdx=23C9 u16_0=21A
+	components[23D7] = (0026): 66085B35 dcCreatorIdx=23D7 u16_0=21A
+	components[23E5] = (0027): 66085B35 dcCreatorIdx=23E5 u16_0=21A
+	components[23F3] = (0028): 66085B35 dcCreatorIdx=23F3 u16_0=21A
+	components[2401] = (0029): 66085B35 dcCreatorIdx=2401 u16_0=21A
+	components[27F1] = (002A): D797B7B9 dcCreatorIdx=27F1 u16_0=103 a0=[0002,0000] txt1='5' a1=(0,0,0,0.4134,0.6) txt2='0.30' a2=(0.8,0,0) a3=[0002,0000] a4=[101,000,100,000] txt3='' txt4=''	aX=[00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00]
+(00B2): NameTable lastIdx=0018
+	entries[0001] = (00CC): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0002] = (00CD): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0003] = (00CE): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0004] = (00CF): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0005] = (00D0): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0006] = (00D1): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0007] = (00D2): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0008] = (00D3): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0002],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0009] = (00D4): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000A] = (00D5): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000B] = (00D6): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000C] = (00D7): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0003],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000D] = (00D8): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000E] = (00D9): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[000F] = (00DA): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0010] = (00DB): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0004],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0011] = (00DC): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0012] = (00DD): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0013] = (00DE): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0014] = (00DF): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0005],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0015] = (00E0): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,010F,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0016] = (00E1): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0026,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0017] = (00E2): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[146A,FFFFFFFF]] u32_2=0000 a1=[0000,00EF,0014,0000,0000,0000,0000,0000,0000,0000]
+	entries[0018] = (00E3): 0645C2A5 u32_0=0005 lst0=[] u32_1=0000 uid={00000000-0000-0000-0000-000000000000} a0=[00B4,0000] lst1=[[14BC,0006],[147D,FFFFFFFF]] u32_2=0000 a1=[0000,0022,0014,0000,0000,0000,0000,0000,0000,0000]
+(00B4): FaceMergeData s32_0=0 lst1=[(800000B2,0001,800000B2,[0001,FFFFFFFF]),(800000B2,0001,800000B2,[0002,0000]),(800000B2,0003,800000B2,[0003,FFFFFFFF]),(800000B2,0003,800000B2,[0004,0002]),(800000B2,0003,800000B2,[0017,0003]),(800000B2,0003,800000B2,[0018,0004]),(800000B2,0003,800000B2,[0013,0005]),(800000B2,0003,800000B2,[0014,0006]),(800000B2,0003,800000B2,[000F,0007]),(800000B2,0003,800000B2,[0010,0008]),(800000B2,0003,800000B2,[000B,0009]),(800000B2,0003,800000B2,[000C,000A]),(800000B2,0003,800000B2,[0008,000B]),(800000B2,0003,800000B2,[0007,000C]),(800000B2,0001,800000B2,[0015,0001]),(800000B2,0001,800000B2,[0016,000E]),(800000B2,0001,800000B2,[0011,000F]),(800000B2,0001,800000B2,[0012,0010]),(800000B2,0001,800000B2,[000D,0011]),(800000B2,0001,800000B2,[000E,0012]),(800000B2,0001,800000B2,[0009,0013]),(800000B2,0001,800000B2,[000A,0014]),(800000B2,0001,800000B2,[0006,0015]),(800000B2,0001,800000B2,[0005,0016])] lst2=[(800000B2,0001,800000B2,[0001]),(800000B2,0002,800000B2,[0001]),(800000B2,0003,800000B2,[0003]),(800000B2,0004,800000B2,[0003]),(800000B2,0017,800000B2,[0003]),(800000B2,0018,800000B2,[0003]),(800000B2,0013,800000B2,[0003]),(800000B2,0014,800000B2,[0003]),(800000B2,000F,800000B2,[0003]),(800000B2,0010,800000B2,[0003]),(800000B2,000B,800000B2,[0003]),(800000B2,000C,800000B2,[0003]),(800000B2,0008,800000B2,[0003]),(800000B2,0007,800000B2,[0003]),(800000B2,0015,800000B2,[0001]),(800000B2,0016,800000B2,[0001]),(800000B2,0011,800000B2,[0001]),(800000B2,0012,800000B2,[0001]),(800000B2,000D,800000B2,[0001]),(800000B2,000E,800000B2,[0001]),(800000B2,0009,800000B2,[0001]),(800000B2,000A,800000B2,[0001]),(800000B2,0006,800000B2,[0001]),(800000B2,0005,800000B2,[0001])] lst3=[[1081,[1F59,FFFFFFFF],106F,[800000B2,0005],[800000B2,0006],[800000B2,000A],[800000B2,0009],[800000B2,000E],[800000B2,000D],[800000B2,0012],[800000B2,0011],[800000B2,0016],[800000B2,0015],[800000B2,0002],[800000B2,0001]],[1081,[1FEF,FFFFFFFF],106F,[800000B2,0005],[800000B2,0006],[800000B2,000A],[800000B2,0009],[800000B2,000E],[800000B2,000D],[800000B2,0012],[800000B2,0011],[800000B2,0016],[800000B2,0015],[800000B2,0002],[800000B2,0001]],[1081,[2301,FFFFFFFF],106F,[800000B2,0005],[800000B2,0006],[800000B2,000A],[800000B2,0009],[800000B2,000E],[800000B2,000D],[800000B2,0012],[800000B2,0011],[800000B2,0016],[800000B2,0015],[800000B2,0002],[800000B2,0001]]]
+	*nameTable = (00B2): NameTable
+	*lst0[1,23] =(00B2): NameTable
+	*lst0[3,13] =(00B2): NameTable
+(00E4): AcisEntityContainer

@@ -1,0 +1,147 @@
+[2014]
+(0001): 128AAF24 lst1={(0002,[0047,0099,00C5,0117,015D,01A8,01F8,0B47,0C2F,0CF5,146A,147D,14BC,19FB,1A8F,1ACA,1ADD,1B18,1B28,1F99,202F,20D8,2105,21A6,21D3,22E7,2345,2355,2383,2391,239F,23AD,23BB,23C9,23D7,23E5,23F3,2401,27F1],0001,0002,[],(-2.425,-1.75,-2.33827)-(2.425,1.75,2.33827))} lst2={[0047,0001],[0099,0000],[00C5,0000],[0117,0000],[015D,0000],[01A8,0000],[01F8,0000],[0B47,0000],[0C2F,0000],[0CF5,0000],[146A,0000],[147D,0000],[14BC,0000],[19FB,0000],[1A8F,0000],[1ACA,0000],[1ADD,0000],[1B18,0000],[1B28,0000],[1F99,0000],[202F,0000],[20D8,0000],[2105,0000],[21A6,0000],[21D3,0000],[22E7,0000],[2345,0000],[2355,0000],[2383,0000],[2391,0000],[239F,0000],[23AD,0000],[23BB,0000],[23C9,0000],[23D7,0000],[23E5,0000],[23F3,0000],[2401,0000],[27F1,0000]} lst3={(000E,001,01,00,(-2.7,0,-2.33827)-(2.7,0,2.33827)),(0058,001,01,00,(-0.65,-1.75,-0.65)-(0.65,-1.75,0.65)),(00AA,001,01,00,(-0.65,-0.25,-0.65)-(0.65,-0.25,0.65)),(00D6,001,01,00,(-0.4,1.75,-0.4)-(0.4,1.75,0.4)),(0128,001,01,00,(-0.075,-0.075,2.33827)-(0.075,0.075,2.33827)),(016E,001,01,00,(-1.35,-1.75,2.33827)-(1.35,1.75,2.33827)),(01B9,001,01,00,(-0.075,-0.39853,2.33827)-(0.690274,0.075,2.33827)),(03CB,001,01,01,(-1.35,-1.75,-2.33827)-(1.35,-1.75,2.33827)),(069A,001,01,01,(-1.35,1.75,1.48827)-(1.35,1.75,2.33827)),(076D,001,01,01,(-0.158148,-0.909921,2.33827)-(0.758783,0.678251,2.33827)),(0EFB,001,01,01,(-0.8,-2.95174,2.33827)-(0.8,1.75,2.33827)),(0F90,001,01,01,(0.8,-1.75,1.86195)-(1.625,-0.95,2.33827)),(1822,001,01,01,(0,-1.55,0)-(0,1.55,0.73)),(1AAE,001,01,00,(0,-1.55,0)-(0.525396,-1.55,1.98827)),(1AFC,001,01,00,(0,1.55,0)-(0.800792,1.55,1.98827)),(1F54,001,01,00,(-2.36,-0.467111,0.588901)-(-1.9654,0.785111,1.27237)),(1FEA,001,01,00,(-2.3379,-0.0765,0.627182)-(-1.98675,0.393,1.23539)),(2040,001,01,00,(-2.03078,1.75,0.142134)-(-1.53078,1.75,0.695586)),(20E9,001,01,00,(-2.03078,1.55,0)-(0,1.55,0.642134)),(2116,001,01,00,(-1.89308,-1.75,0.380634)-(-1.39308,-1.75,0.880634)),(21B7,001,01,00,(-1.89308,-1.55,0)-(0,-1.55,0.880634)),(22FC,001,01,00,(-2.0625,-0.075,1.10418)-(-1.9875,0.075,1.23409)),(25B6,001,01,00,(-0.8,-0.212107,-2.33827)-(0.8,1.75,-2.33827))} lst4={} lst5={} lst6={(0002,100,0047,(71, 153, 197, 279, 349, 424, 504, 2887, 3119, 3317, 5226, 5245, 5308, 6651, 6799, 6858, 6877, 6936, 6952, 8089, 8239, 8408, 8453, 8614, 8659, 8935, 9029, 9045, 9091, 9105, 9119, 9133, 9147, 9161, 9175, 9189, 9203, 9217, 10225))} lst7={} u8_1=01 lst8={} u8_2=01
+(0002): F645595C u32_0=071D schema=0026 u32_2=0000 u8_0=01 s32_0=-1 lastKey=4659
+	ref_1 = (0003): SatHistory s32_0=0 numbers=[05F0,05F1,05F2,074B,079F,07E0,0828,0829,082A,082B,082C,082D,082E,082F,0830,0999,09D5,0A11,0DD4,0DD5,0DD6,0E1C,0E1D,0E1E,0E62,0E63,0E64,0E65,0E66,0E67,0F59,0F5A,0F5B,10E7,10E8,10E9,1121,1122,1123,1124,1125,1126,1127,115E,1190,1191,1192,1193,1194,11C2,11C3,11C4,11C5,11C6,11C7,11C8,11C9,11CA,11CB,11CC,11F0,11F1,11F2,11F3,11F4,1214,1215,1216,1217,1218,1219,121A,121B,121C,121D,121E,121F,1220,1221,1222,1223,1224,1225,1226,1227,1228,1229,122A,122B,122C,122D,122E,122F,1230,1231,1232,1233]
+		delta_states[05F0] = (0004): 09780457 delta_state=1520
+		delta_states[05F1] = (0005): 09780457 delta_state=1521
+			lst0[0000] = (0066): 809BE56F root=80000003 flags=1004 ref_0=80000001	aX=[00 01]
+			lst0[0001] = (0067): 80CAECF1 root=80000003 flags=400004 ref_0=80000001	aX=[00 01]
+			lst0[0002] = (0068): E9B04618 root=80000003 flags=1000004 ref_0=80000001	aX=[00 01]
+			lst0[0003] = (0069): 0E70AF5C root=80000003 flags=2004 ref_0=80000001 dcBodyIdx=0002
+			lst0[0004] = (006A): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0047
+			lst0[0005] = (006B): E065E15A root=80000003 flags=800004 ref_0=80000001 dcBodyIdx=0002 u32_0=0000 dcCreatorIdx=0047
+			lst0[0006] = (006C): 9147489A root=80000003 flags=80004 ref_0=80000001 dcBodyIdx=0002	aX=[00 01]
+		delta_states[05F2] = (0006): 09780457 delta_state=1522
+		delta_states[074B] = (0007): 09780457 delta_state=1867
+		delta_states[079F] = (0008): 09780457 delta_state=1951
+		delta_states[07E0] = (0009): 09780457 delta_state=2016
+		delta_states[0828] = (000A): 09780457 delta_state=2088
+		delta_states[0829] = (000B): 09780457 delta_state=2089
+			lst0[0000] = (006D): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0099
+		delta_states[082A] = (000C): 09780457 delta_state=2090
+		delta_states[082B] = (000D): 09780457 delta_state=2091
+			lst0[0000] = (006E): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=00C5
+		delta_states[082C] = (000E): 09780457 delta_state=2092
+		delta_states[082D] = (000F): 09780457 delta_state=2093
+			lst0[0000] = (006F): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0117
+		delta_states[082E] = (0010): 09780457 delta_state=2094
+		delta_states[082F] = (0011): 09780457 delta_state=2095
+			lst0[0000] = (0070): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=015D
+		delta_states[0830] = (0012): 09780457 delta_state=2096
+		delta_states[0999] = (0013): 09780457 delta_state=2457
+		delta_states[09D5] = (0014): 09780457 delta_state=2517
+		delta_states[0A11] = (0015): 09780457 delta_state=2577
+		delta_states[0DD4] = (0016): 09780457 delta_state=3540
+		delta_states[0DD5] = (0017): 09780457 delta_state=3541
+			lst0[0000] = (0071): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=01A8
+		delta_states[0DD6] = (0018): 09780457 delta_state=3542
+		delta_states[0E1C] = (0019): 09780457 delta_state=3612
+		delta_states[0E1D] = (001A): 09780457 delta_state=3613
+			lst0[0000] = (0072): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=01F8
+		delta_states[0E1E] = (001B): 09780457 delta_state=3614
+		delta_states[0E62] = (001C): 09780457 delta_state=3682
+		delta_states[0E63] = (001D): 09780457 delta_state=3683
+			lst0[0000] = (0073): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0B47
+		delta_states[0E64] = (001E): 09780457 delta_state=3684
+		delta_states[0E65] = (001F): 09780457 delta_state=3685
+			lst0[0000] = (0074): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0C2F
+		delta_states[0E66] = (0020): 09780457 delta_state=3686
+		delta_states[0E67] = (0021): 09780457 delta_state=3687
+			lst0[0000] = (0075): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0CF5
+		delta_states[0F59] = (0022): 09780457 delta_state=3929
+		delta_states[0F5A] = (0023): 09780457 delta_state=3930
+		delta_states[0F5B] = (0024): 09780457 delta_state=3931
+		delta_states[10E7] = (0025): 09780457 delta_state=4327
+		delta_states[10E8] = (0026): 09780457 delta_state=4328
+			lst0[0000] = (0076): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=146A
+		delta_states[10E9] = (0027): 09780457 delta_state=4329
+		delta_states[1121] = (0028): 09780457 delta_state=4385
+		delta_states[1122] = (0029): 09780457 delta_state=4386
+			lst0[0000] = (0077): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=147D
+		delta_states[1123] = (002A): 09780457 delta_state=4387
+		delta_states[1124] = (002B): 09780457 delta_state=4388
+			lst0[0000] = (0078): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=14BC
+		delta_states[1125] = (002C): 09780457 delta_state=4389
+		delta_states[1126] = (002D): 09780457 delta_state=4390
+			lst0[0000] = (0079): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1A8F
+		delta_states[1127] = (002E): 09780457 delta_state=4391
+		delta_states[115E] = (002F): 09780457 delta_state=4446
+		delta_states[1190] = (0030): 09780457 delta_state=4496
+		delta_states[1191] = (0031): 09780457 delta_state=4497
+			lst0[0000] = (007A): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1ACA
+		delta_states[1192] = (0032): 09780457 delta_state=4498
+		delta_states[1193] = (0033): 09780457 delta_state=4499
+			lst0[0000] = (007B): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1ADD
+		delta_states[1194] = (0034): 09780457 delta_state=4500
+		delta_states[11C2] = (0035): 09780457 delta_state=4546
+		delta_states[11C3] = (0036): 09780457 delta_state=4547
+			lst0[0000] = (007C): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1B18
+		delta_states[11C4] = (0037): 09780457 delta_state=4548
+		delta_states[11C5] = (0038): 09780457 delta_state=4549
+			lst0[0000] = (007D): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1B28
+		delta_states[11C6] = (0039): 09780457 delta_state=4550
+		delta_states[11C7] = (003A): 09780457 delta_state=4551
+			lst0[0000] = (007E): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=1F99
+		delta_states[11C8] = (003B): 09780457 delta_state=4552
+		delta_states[11C9] = (003C): 09780457 delta_state=4553
+			lst0[0000] = (007F): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=202F
+		delta_states[11CA] = (003D): 09780457 delta_state=4554
+		delta_states[11CB] = (003E): 09780457 delta_state=4555
+			lst0[0000] = (0080): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=20D8
+		delta_states[11CC] = (003F): 09780457 delta_state=4556
+		delta_states[11F0] = (0040): 09780457 delta_state=4592
+		delta_states[11F1] = (0041): 09780457 delta_state=4593
+			lst0[0000] = (0081): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2105
+		delta_states[11F2] = (0042): 09780457 delta_state=4594
+		delta_states[11F3] = (0043): 09780457 delta_state=4595
+			lst0[0000] = (0082): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=21A6
+		delta_states[11F4] = (0044): 09780457 delta_state=4596
+		delta_states[1214] = (0045): 09780457 delta_state=4628
+		delta_states[1215] = (0046): 09780457 delta_state=4629
+			lst0[0000] = (0083): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=21D3
+		delta_states[1216] = (0047): 09780457 delta_state=4630
+		delta_states[1217] = (0048): 09780457 delta_state=4631
+			lst0[0000] = (0084): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=19FB
+		delta_states[1218] = (0049): 09780457 delta_state=4632
+		delta_states[1219] = (004A): 09780457 delta_state=4633
+			lst0[0000] = (0085): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=22E7
+		delta_states[121A] = (004B): 09780457 delta_state=4634
+		delta_states[121B] = (004C): 09780457 delta_state=4635
+			lst0[0000] = (0086): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2345
+		delta_states[121C] = (004D): 09780457 delta_state=4636
+		delta_states[121D] = (004E): 09780457 delta_state=4637
+			lst0[0000] = (0087): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2355
+		delta_states[121E] = (004F): 09780457 delta_state=4638
+		delta_states[121F] = (0050): 09780457 delta_state=4639
+			lst0[0000] = (0088): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2383
+		delta_states[1220] = (0051): 09780457 delta_state=4640
+		delta_states[1221] = (0052): 09780457 delta_state=4641
+			lst0[0000] = (0089): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2391
+		delta_states[1222] = (0053): 09780457 delta_state=4642
+		delta_states[1223] = (0054): 09780457 delta_state=4643
+			lst0[0000] = (008A): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=239F
+		delta_states[1224] = (0055): 09780457 delta_state=4644
+		delta_states[1225] = (0056): 09780457 delta_state=4645
+			lst0[0000] = (008B): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23AD
+		delta_states[1226] = (0057): 09780457 delta_state=4646
+		delta_states[1227] = (0058): 09780457 delta_state=4647
+			lst0[0000] = (008C): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23BB
+		delta_states[1228] = (0059): 09780457 delta_state=4648
+		delta_states[1229] = (005A): 09780457 delta_state=4649
+			lst0[0000] = (008D): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23C9
+		delta_states[122A] = (005B): 09780457 delta_state=4650
+		delta_states[122B] = (005C): 09780457 delta_state=4651
+			lst0[0000] = (008E): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23D7
+		delta_states[122C] = (005D): 09780457 delta_state=4652
+		delta_states[122D] = (005E): 09780457 delta_state=4653
+			lst0[0000] = (008F): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23E5
+		delta_states[122E] = (005F): 09780457 delta_state=4654
+		delta_states[122F] = (0060): 09780457 delta_state=4655
+			lst0[0000] = (0090): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=23F3
+		delta_states[1230] = (0061): 09780457 delta_state=4656
+		delta_states[1231] = (0062): 09780457 delta_state=4657
+			lst0[0000] = (0091): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=2401
+		delta_states[1232] = (0063): 09780457 delta_state=4658
+		delta_states[1233] = (0064): 09780457 delta_state=4659
+			lst0[0000] = (0092): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=27F1
+		ref_1 = (0065): 09780457 delta_state=-1

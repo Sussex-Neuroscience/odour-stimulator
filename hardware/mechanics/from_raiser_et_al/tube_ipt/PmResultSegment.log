@@ -1,0 +1,23 @@
+[2014]
+(0001): 128AAF24 lst1={(0002,[0069,007E,00C5,00DC],0001,0002,[],(-0.4,0,-0.4)-(0.4,6,0.4))} lst2={[0069,0001],[007E,0000],[00C5,0000],[00DC,0000]} lst3={(004C,001,01,00,(-0.4,0,-0.4)-(0.4,0,0.4))} lst4={} lst5={} lst6={(0002,100,0069,(105, 126, 197, 220))} lst7={} u8_1=01 lst8={} u8_2=01
+(0002): F645595C u32_0=071D schema=0026 u32_2=0000 u8_0=01 s32_0=-1 lastKey=72
+	ref_1 = (0003): SatHistory s32_0=0 numbers=[0041,0042,0043,0044,0045,0046,0047,0048]
+		delta_states[0041] = (0004): 09780457 delta_state=65
+		delta_states[0042] = (0005): 09780457 delta_state=66
+			lst0[0000] = (000D): 809BE56F root=80000003 flags=1004 ref_0=80000001	aX=[00 01]
+			lst0[0001] = (000E): 80CAECF1 root=80000003 flags=400004 ref_0=80000001	aX=[00 01]
+			lst0[0002] = (000F): E9B04618 root=80000003 flags=1000004 ref_0=80000001	aX=[00 01]
+			lst0[0003] = (0010): 0E70AF5C root=80000003 flags=2004 ref_0=80000001 dcBodyIdx=0002
+			lst0[0004] = (0011): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=0069
+			lst0[0005] = (0012): E065E15A root=80000003 flags=800004 ref_0=80000001 dcBodyIdx=0002 u32_0=0000 dcCreatorIdx=0069
+			lst0[0006] = (0013): 9147489A root=80000003 flags=80004 ref_0=80000001 dcBodyIdx=0002	aX=[00 01]
+		delta_states[0043] = (0006): 09780457 delta_state=67
+		delta_states[0044] = (0007): 09780457 delta_state=68
+			lst0[0000] = (0014): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=007E
+		delta_states[0045] = (0008): 09780457 delta_state=69
+		delta_states[0046] = (0009): 09780457 delta_state=70
+			lst0[0000] = (0015): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=00C5
+		delta_states[0047] = (000A): 09780457 delta_state=71
+		delta_states[0048] = (000B): 09780457 delta_state=72
+			lst0[0000] = (0016): 3E0040FD root=80000003 flags=8004 ref_0=80000001 dcBodyIdx=0002 dcCreatorIdx=00DC
+		ref_1 = (000C): 09780457 delta_state=-1

@@ -1,0 +1,41 @@
+Design Tracking Control:
+ 13 -                NextVersion: '2'
+ 14 -             CurrentVersion: '1'
+ 16 -                LastSavedBy: 'Admin'
+ 17 -              LastSavedDate: 2013/10/11 15:19:52.707800
+ 18 -                         18: 'E4F90F41-421F-B7F7-29D0-C6A1EC5EE525'
+ 21 -                         21: '87E021C0-4002-BD9E-AFFE-578E5B06AB87'
+ 22 -               BuildVersion: 180170000
+
+Design Tracking Properties:
+  4 -               CreationDate: 2013/10/11 15:18:19.414464
+  5 -                 PartNumber: 'rod'
+ 20 -                   Material: 'Generic'
+ 21 -              PartPropRevId: '47E112C6-FE61-40A9-A9EA-31878971BF3D'
+ 31 -                 DocSubType: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 32 -             DocSubTypeName: 'Modeling'
+ 40 -               DesignStatus: 1
+ 41 -                   Designer: 'Admin'
+ 46 -          ExternalPropRevId: '4D29B490-49B2-11D0-93C3-7E0706000000'
+ 62 -             ValidMassProps: 17
+ 67 -            LastUpdatedWith: '2014 (Build 180170000, 170)'
+ 71 -         MaterialIdentifier: 'R:\\Application\\App\\Materials\\InventorMaterialLibrary\\InventorMaterialLibrary.adsklib#1:Generic\n#MaterialInv_072'
+ 72 -                 Appearance: 'Default'
+
+Inventor Document Summary Information:
+
+Inventor Summary Information:
+  4 -                     Author: 'Admin'
+ 17 -                  Thumbnail: PNG: 180 x 180
+
+Inventor User Defined Properties:
+
+_Private Model Information:
+  8 -                LengthUnits: 11269
+  9 -                 AngleUnits: 11279
+ 10 -                  TimeUnits: 11290
+ 11 -                  MassUnits: 11283
+ 12 -     LengthDisplayPrecision: 3
+ 13 -      AngleDisplayPrecision: 2
+ 16 -       PartActiveColorStyle: '<PartActiveColorStyle><Category>Miscellaneous</Category><StyleName>Default</StyleName><Protein><MaterialId>InvGen-071</MaterialId><Scale>1,000000</Scale><Rotation>0,000000</Rotation></Protein></PartActiveColorStyle>'
+
