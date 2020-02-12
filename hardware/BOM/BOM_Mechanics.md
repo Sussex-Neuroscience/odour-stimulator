@@ -2,7 +2,7 @@
 
 ## Glossary
 
-ID - Internal diametre
+ID - Internal diametre  
 OD - External diametre
 
 | Reference | Qty  | Description | supplier  |MPN|Link|
