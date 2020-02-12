@@ -13,8 +13,16 @@ OD - External diametre
 |Teflon tubing|10 metres|original from paper has been discontinued. 1mm ID 2mm OD is what comes closer |[VWR](https://uk.vwr.com)|DENE3400102|<https://uk.vwr.com/store/product/576865/tubing-ptfe>|
 |Y shaped connector|20|for 4mm ID tubing|[VWR](https://uk.vwr.com)|229-0723|https://uk.vwr.com/store/catalog/product.jsp?catalog_number=229-0723|
 |Tube clamps| 20 |stepless flow control|[VWR](https://uk.vwr.com) |229-0117|<https://uk.vwr.com/store/product/7652160/tubing-clamps-stop-it>|
-|**!!** Needles | 100 |18G X 1 1/2 |[VWR](https://uk.vwr.com) |613-5396|<https://uk.vwr.com/store/product/16614798/hypodermic-needles-aganitm>|
-|**!!** Needles | 20|18G 1.2X40mm |[VWR](https://uk.vwr.com) |613-5396|<https://uk.vwr.com/store/product/16614798/hypodermic-needles-aganitm>|
+|Glass vials | 20 |12 ml glass vials (preferentially with rubber/silicone lid) |[VWR](https://uk.vwr.com) | 548-0820|<https://uk.vwr.com/store/catalog/product.jsp?catalog_number=548-0820>|
+|Glass vials caps| 20 |screw caps with rubber/silicone part for needle entry |[VWR](https://uk.vwr.com) | 548-3335|<https://uk.vwr.com/store/catalog/product.jsp?catalog_number=548-0820>|
+| Needles | 100 |18G X 1 1/2 |[VWR](https://uk.vwr.com) |613-5396|<https://uk.vwr.com/store/product/16614798/hypodermic-needles-aganitm>|
+| Needles | 20|18G 2X40mm |[VWR](https://uk.vwr.com) | HSWA8300013707 |<https://uk.vwr.com/store/product/7210520/hypodermic-needles-fine-ject-for-single-use>|
+
+
+glas tube 7 mm ID, 10 mm OD, 80 mm length
+glas tube 4 mm ID, 7 mm OD, 80 mm length
+O-ring seal, silicon, I.D. 8 mm, O.D. 10 mm
+O-ring seal, silicon, I.D. 12 mm, O.D. 15 mm
 
 #### note : The rows indicated with !! are as on the original bill of materials, but they seem to be a duplicate entry.
 
