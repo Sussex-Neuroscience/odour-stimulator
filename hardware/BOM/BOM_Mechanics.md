@@ -18,8 +18,8 @@ OD - External diametre
 | Needles | 100 |18G X 1 1/2 |[VWR](<https://uk.vwr.com>) |613-5396|<https://uk.vwr.com/store/product/16614798/hypodermic-needles-aganitm>|
 | Needles | 20|14G 2X40mm |[VWR](<https://uk.vwr.com>) | HSWA8300013707 |<https://uk.vwr.com/store/product/7210520/hypodermic-needles-fine-ject-for-single-use>|
 | O-ring | 1 | 12mm ID 15mm OD silicone  |[RS](<https://uk.rs-online.com>) | 0128849 |<https://uk.rs-online.com/web/p/seals-o-rings/0128849/>|
-| O-ring | 1 | 7.5mm ID 11mm OD silicone |[RS](<https://uk.rs-online.com>) | HSWA8300013707 |<https://uk.rs-online.com/web/p/seals-o-rings/0128849/>|
-https://uk.rs-online.com/web/p/seals-o-rings/5279790/
+| O-ring | 1 | 7.5mm ID 11mm OD silicone |[RS](<https://uk.rs-online.com>) | 5279790 |<https://uk.rs-online.com/web/p/seals-o-rings/5279790/>|
+
 
 glass tube 7 mm ID, 10 mm OD, 80 mm length  
 glass tube 4 mm ID, 7 mm OD, 80 mm length  
