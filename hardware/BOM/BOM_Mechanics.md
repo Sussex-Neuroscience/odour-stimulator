@@ -20,7 +20,6 @@ OD - External diametre
 | O-ring | 1 | 12mm ID 15mm OD silicone  |[RS](<https://uk.rs-online.com>) | 0128849 |<https://uk.rs-online.com/web/p/seals-o-rings/0128849/>|
 | O-ring | 1 | 7.5mm ID 11mm OD silicone |[RS](<https://uk.rs-online.com>) | 5279790 |<https://uk.rs-online.com/web/p/seals-o-rings/5279790/>|
 
-
 glass tube 7 mm ID, 10 mm OD, 80 mm length  
 glass tube 4 mm ID, 7 mm OD, 80 mm length  
 
