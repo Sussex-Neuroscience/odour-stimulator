@@ -79,7 +79,7 @@
 		*entities[0000] = (001C): Point2D - (0,0)
 		*entities[0001] = (001E): Point2D - (0,0)
 		*entities[0002] = (001F): Geometric_Coincident2D - (0,0)	(001E): Point2D
-		*entities[0003] = (0020): Circle2D
+		*entities[0003] = (0020): Circle2D - (0,0), r=0.5
 		*entities[0004] = (0021): Geometric_Radius2D - o=(0020): Circle2D, c=(001E)
 		*entities[0005] = (0024): Dimension_Diameter2D
 		*transformation = (0018): Transformation
@@ -103,7 +103,7 @@
 	objects[0012] = (001E): Point2D flags=20200 index=0013 flags2=0000 pos=(0,0) u32_0=0000 lst1=[]
 		next = (00A0): Styles a0=[0000,0000] u32_0=0000 associativeID=0002 typEntity=0001
 		*sketch = (0019): Sketch2D 'Sketch1'
-		*centerOf[0000] = (0020): Circle2D
+		*centerOf[0000] = (0020): Circle2D - (0,0), r=0.5
 	objects[0013] = (001F): Geometric_Coincident2D flags=4208 index=0014 flags2=-1 lst0=[]
 		*group = (0022): Group2D
 		*entity1 = (001C): Point2D - (0,0)
@@ -114,7 +114,7 @@
 		*center = (001E): Point2D - (0,0)
 	objects[0015] = (0021): Geometric_Radius2D flags=4208 index=0016 flags2=-1 lst0=[]
 		*group = (0022): Group2D
-		*entity = (0020): Circle2D
+		*entity = (0020): Circle2D - (0,0), r=0.5
 		*center = (001E): Point2D - (0,0)
 	objects[0016] = (0022): Group2D flags=0200 index=0017 s32_0=-1 s32_1=3 entries=[[8000001C:0004],[8000001E:0000],[8000001F:0000],[80000020:0000],[80000021:0000],[80000024:0000]] u32_0=0000
 		*constrains[0000] = (001F): Geometric_Coincident2D - (0,0)	(001E): Point2D
@@ -134,10 +134,10 @@
 					*sketch = (0019): Sketch2D 'Sketch1'
 				ref_2 = (0100): 99B938AE flags=0200 index=0000 a1=(0.25,0.1) u32_0=0010 u32_1=0000
 				*ref_3 = (0100): 99B938AE
-			*ref_2 = (0020): Circle2D
+			*ref_2 = (0020): Circle2D - (0,0), r=0.5
 		*group = (0022): Group2D
 		*parameter = (0023): Parameter 'd0'=10mm
-		*circle = (0020): Circle2D
+		*circle = (0020): Circle2D - (0,0), r=0.5
 	objects[0019] = (0025): BoundaryPatch flags=0200 index=001A
 		*lst0[0000] = (0027): FaceBoundProxy
 	objects[001A] = (0026): FaceBoundOuter flags=100200 index=001B s32_0=70 a1=[0001,0001]
@@ -235,10 +235,10 @@
 				ref_2 = (0104): DBDD00E3 u32_0=0000 numEntities=0004 lst0={}
 					*sketch = (0038): Sketch2D 'Sketch3'
 		*entities[0000] = (0043): Point2D - (0,0)
-		*entities[0001] = (0044): Circle2D
+		*entities[0001] = (0044): Circle2D - (0,0), r=0.5
 		*entities[0002] = (0049): Point2D - (0,0)
 		*entities[0003] = (004A): Geometric_Coincident2D - (0,0)	(0049): Point2D
-		*entities[0004] = (004B): Circle2D
+		*entities[0004] = (004B): Circle2D - (0,0), r=0.3
 		*entities[0005] = (004C): Geometric_Radius2D - o=(004B): Circle2D, c=(0049)
 		*entities[0006] = (004F): Dimension_Diameter2D
 		*transformation = (0037): Transformation
@@ -276,18 +276,18 @@
 					*owner = (0043): Point2D - (0,0)
 				*ref_2 = (0048): Representation3DPoint
 		*sketch = (0038): Sketch2D 'Sketch3'
-		*centerOf[0000] = (0044): Circle2D
+		*centerOf[0000] = (0044): Circle2D - (0,0), r=0.5
 	objects[0039] = (0044): Circle2D flags=30200 index=004C flags2=0140 r=0.5 u8_0=01
 		next = (00B4): Styles a0=[0000,0000] u32_0=0000 associativeID=0002 typEntity=0002
 			next = (00E5): EntityReference a0=[0000,0000]
-				*owner = (0044): Circle2D
+				*owner = (0044): Circle2D - (0,0), r=0.5
 				next = (0106): D94F1914 a0=[0000,0000] ntEntry1=[0004[0008]] ntEntry2=[0004[0005]]
-					*owner = (0044): Circle2D
+					*owner = (0044): Circle2D - (0,0), r=0.5
 				*ref_2 = (0045): 64DE16F3
 		*sketch = (0038): Sketch2D 'Sketch3'
 		*center = (0043): Point2D - (0,0)
 	objects[003A] = (0045): 64DE16F3 flags=0200 index=004D s32_0=2 u16_0=00B
-		*entity = (0044): Circle2D
+		*entity = (0044): Circle2D - (0,0), r=0.5
 		*transformation = (0037): Transformation
 		*edge = (0046): EdgeItem
 	objects[003B] = (0046): EdgeItem flags=0000 index=004E indexRefs=[004F] s32_0=-1 u32_0=0000
@@ -302,7 +302,7 @@
 	objects[003E] = (0049): Point2D flags=20200 index=0051 flags2=0000 pos=(0,0) u32_0=0000 lst1=[]
 		next = (00B6): Styles a0=[0000,0000] u32_0=0000 associativeID=0003 typEntity=0001
 		*sketch = (0038): Sketch2D 'Sketch3'
-		*centerOf[0000] = (004B): Circle2D
+		*centerOf[0000] = (004B): Circle2D - (0,0), r=0.3
 	objects[003F] = (004A): Geometric_Coincident2D flags=4208 index=0052 flags2=-1 lst0=[]
 		*group = (004D): Group2D
 		*entity1 = (0043): Point2D - (0,0)
@@ -313,7 +313,7 @@
 		*center = (0049): Point2D - (0,0)
 	objects[0041] = (004C): Geometric_Radius2D flags=4208 index=0054 flags2=-1 lst0=[]
 		*group = (004D): Group2D
-		*entity = (004B): Circle2D
+		*entity = (004B): Circle2D - (0,0), r=0.3
 		*center = (0049): Point2D - (0,0)
 	objects[0042] = (004D): Group2D flags=0200 index=0055 s32_0=-1 s32_1=3 entries=[[80000043:0004],[80000049:0000],[8000004A:0000],[8000004B:0000],[8000004C:0000],[8000004F:0000]] u32_0=0000
 		*constrains[0000] = (004A): Geometric_Coincident2D - (0,0)	(0049): Point2D
@@ -333,10 +333,10 @@
 					*sketch = (0038): Sketch2D 'Sketch3'
 				ref_2 = (0109): 99B938AE flags=0200 index=0000 a1=(0.25,0.1) u32_0=0010 u32_1=0000
 				*ref_3 = (0109): 99B938AE
-			*ref_2 = (004B): Circle2D
+			*ref_2 = (004B): Circle2D - (0,0), r=0.3
 		*group = (004D): Group2D
 		*parameter = (004E): Parameter 'd3'=6mm
-		*circle = (004B): Circle2D
+		*circle = (004B): Circle2D - (0,0), r=0.3
 	objects[0045] = (0050): BoundaryPatch flags=0200 index=0058
 		*lst0[0000] = (0052): FaceBoundProxy
 	objects[0046] = (0051): FaceBoundOuter flags=100200 index=0059 s32_0=70 a1=[0001,0001]

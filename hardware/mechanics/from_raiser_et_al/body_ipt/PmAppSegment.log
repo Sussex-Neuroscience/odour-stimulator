@@ -155,7 +155,7 @@
 		lst0[SurfaceTexture] = (0034): 440F63D1 'SurfaceTexture' u8_0=00 u16_0=002 a0=[000,000] default=0001 u32=0000 comment='' u16_1=000 longName='1:SurfaceTexture' a2=[0000,0000,007F,0001]
 			*ref_1 = (0030): Leader 'Leader'
 			*ref_2 = (0035): Text 'DEFAULT-ANSI'
-	lst0[Text] = (0021): 6DD8F4A0 'Text' codpage=0409	aX=[00 00 00 00]
+	lst0[Text] = (0021): 6DD8F4A0 'Text' codpage=0409
 		lst0[DEFAULT-ANSI] = (0035): Text 'DEFAULT-ANSI' u8_0=00 u16_0=005 a0=[000,000] default=0001 u32=0000 comment='' u16_1=000 longName='1:DEFAULT-ANSI' a2=[-1,-1,-1] FontName='Tahoma'	aX=[BF 0E 9C 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 01]
 		lst0[DEFAULT-ISO] = (0036): Text 'DEFAULT-ISO' u8_0=00 u16_0=002 a0=[000,000] default=0001 u32=0000 comment='' u16_1=000 longName='1:DEFAULT-ISO' a2=[-1,-1,-1] FontName='Tahoma'	aX=[33 33 B3 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 01]
 		lst0[Text(Default)] = (0037): Text 'Text(Default)' u8_0=00 u16_0=002 a0=[000,000] default=0001 u32=0000 comment='' u16_1=000 longName='1:Text(Default)' a2=[-1,-1,-1] FontName='Tahoma'	aX=[BF 0E 9C 3E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 80 3F 00 01]

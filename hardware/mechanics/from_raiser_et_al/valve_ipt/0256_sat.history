@@ -1,27 +1,27 @@
-SAT history_stream: 2 2 0 2341 $-1 $0 $0 $-1:
-0 delta_state 2 1 0 $-1 $-1 $0 $-1 $0 0x0B
+SAT history_stream: 2 2 0 2341 $-1  $0  $0  -1:
+0 delta_state 2 1 0 $-1  $-1  $0  $-1  0 11
 	BulletinBoard: 0
-		$-1   $141  // inserted:   -141 point $-1 -1 $-1 (0.475704 -0.582738 0) #
-		$-1   $88   // inserted:   -88 vertex $140 -1 $-1 $68 $141 #
-		$-1   $68   // inserted:   -68 edge $87 -1 $-1 $88 0 $89 1.143 $53 $90 0x0B @7 unknown #
-		$-1   $53   // inserted:   -53 coedge $-1 -1 $-1 $66 $67 $-1 $68 0x0B $40 $-1 #
-		$-1   $40   // inserted:   -40 wire $-1 -1 $-1 $-1 $53 $27 $-1 0x0B #
-		$-1   $143  // inserted:   -143 point $-1 -1 $-1 (-0.667296 -0.582738 0) #
-		$-1   $90   // inserted:   -90 straight-curve $-1 -1 $-1 (0.475704 -0.582738 0) (-1 0 0) 0x0A 0 0x0A 1.143 #
-		$-1   $89   // inserted:   -89 vertex $142 -1 $-1 $68 $143 #
-		$-1   $174  // inserted:   -174 point $-1 -1 $-1 (-0.667296 0.682262 0) #
-		$-1   $136  // inserted:   -136 straight-curve $-1 -1 $-1 (-0.667296 -0.582738 0) (0 1 0) 0x0A 0 0x0A 1.265 #
-		$-1   $135  // inserted:   -135 vertex $173 -1 $-1 $85 $174 #
-		$-1   $85   // inserted:   -85 edge $134 -1 $-1 $89 0 $135 1.265 $66 $136 0x0B @7 unknown #
-		$-1   $66   // inserted:   -66 coedge $-1 -1 $-1 $84 $53 $-1 $85 0x0B $40 $-1 #
-		$-1   $176  // inserted:   -176 point $-1 -1 $-1 (0.475704 0.682262 0) #
-		$-1   $172  // inserted:   -172 straight-curve $-1 -1 $-1 (-0.667296 0.682262 0) (1 0 0) 0x0A 0 0x0A 1.143 #
-		$-1   $138  // inserted:   -138 vertex $175 -1 $-1 $133 $176 #
-		$-1   $133  // inserted:   -133 edge $171 -1 $-1 $135 0 $138 1.143 $84 $172 0x0B @7 unknown #
-		$-1   $84   // inserted:   -84 coedge $-1 -1 $-1 $67 $66 $-1 $133 0x0B $40 $-1 #
-		$-1   $139  // inserted:   -139 straight-curve $-1 -1 $-1 (0.475704 0.682262 0) (0 -1 0) 0x0A 0 0x0A 1.265 #
-		$-1   $86   // inserted:   -86 edge $137 -1 $-1 $138 0 $88 1.265 $67 $139 0x0B @7 unknown #
-		$-1   $67   // inserted:   -67 coedge $-1 -1 $-1 $53 $84 $-1 $86 0x0B $40 $-1 #
+		$-1   $141  // inserted:   -141 point $-1 -1 $-1 4.75704 -5.82738 0 #
+		$-1   $88   // inserted:   -88 vertex $140 -1 $-1 $68 0 $141 #
+		$-1   $68   // inserted:   -68 edge $87 -1 $-1 $88 0 $89 1.143 $53 $90 forward @7 unknown #
+		$-1   $53   // inserted:   -53 coedge $-1 -1 $-1 $66 $67 $-1 $68 forward $40 0 $-1 #
+		$-1   $40   // inserted:   -40 wire $-1 -1 $-1 $-1 $53 $27 $-1 out #
+		$-1   $143  // inserted:   -143 point $-1 -1 $-1 -6.67296 -5.82738 0 #
+		$-1   $90   // inserted:   -90 straight-curve $-1 -1 $-1 4.75704 -5.82738 0 -1 0 0 F 0 F 1.143 #
+		$-1   $89   // inserted:   -89 vertex $142 -1 $-1 $68 1 $143 #
+		$-1   $174  // inserted:   -174 point $-1 -1 $-1 -6.67296 6.82262 0 #
+		$-1   $136  // inserted:   -136 straight-curve $-1 -1 $-1 -6.67296 -5.82738 0 0 1 0 F 0 F 1.265 #
+		$-1   $135  // inserted:   -135 vertex $173 -1 $-1 $85 1 $174 #
+		$-1   $85   // inserted:   -85 edge $134 -1 $-1 $89 0 $135 1.265 $66 $136 forward @7 unknown #
+		$-1   $66   // inserted:   -66 coedge $-1 -1 $-1 $84 $53 $-1 $85 forward $40 0 $-1 #
+		$-1   $176  // inserted:   -176 point $-1 -1 $-1 4.75704 6.82262 0 #
+		$-1   $172  // inserted:   -172 straight-curve $-1 -1 $-1 -6.67296 6.82262 0 1 0 0 F 0 F 1.143 #
+		$-1   $138  // inserted:   -138 vertex $175 -1 $-1 $133 1 $176 #
+		$-1   $133  // inserted:   -133 edge $171 -1 $-1 $135 0 $138 1.143 $84 $172 forward @7 unknown #
+		$-1   $84   // inserted:   -84 coedge $-1 -1 $-1 $67 $66 $-1 $133 forward $40 0 $-1 #
+		$-1   $139  // inserted:   -139 straight-curve $-1 -1 $-1 4.75704 6.82262 0 0 -1 0 F 0 F 1.265 #
+		$-1   $86   // inserted:   -86 edge $137 -1 $-1 $138 0 $88 1.265 $67 $139 forward @7 unknown #
+		$-1   $67   // inserted:   -67 coedge $-1 -1 $-1 $53 $84 $-1 $86 forward $40 0 $-1 #
 		$-1   $1    // inserted:   -1 body $-1 164 $-1 $14 $-1 $-1 #
 		$-1   $27   // inserted:   -27 shell $-1 -1 $-1 $-1 $-1 $-1 $40 $14 #
 		$-1   $14   // inserted:   -14 lump $-1 -1 $-1 $-1 $27 $1 #
@@ -33,67 +33,67 @@ SAT history_stream: 2 2 0 2341 $-1 $0 $0 $-1:
 		$-1   $171  // inserted:   -171 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $133 38 0 8 0 2 #
 		$-1   $175  // inserted:   -175 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $138 38 0 5 0 1 #
 		$-1   $137  // inserted:   -137 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $86 38 0 9 0 2 #
-		$-1   $144  // inserted:   -144 point $-1 -1 $-1 (-0.0197956 0.049762 0) #
-		$-1   $92   // inserted:   -92 vertex $-1 -1 $-1 $69 $144 #
-		$-1   $69   // inserted:   -69 edge $91 -1 $-1 $92 -3.14159 $92 3.14159 $54 $93 0x0B @7 unknown #
-		$-1   $54   // inserted:   -54 coedge $-1 -1 $-1 $54 $54 $-1 $69 0x0B $41 $-1 #
-		$-1   $41   // inserted:   -41 wire $-1 -1 $-1 $-1 $54 $28 $-1 0x0B #
-		$-1   $93   // inserted:   -93 ellipse-curve $-1 -1 $-1 (-0.0957956 0.049762 0) (0 0 -1) (-0.076 -0 -0) 1 0x0B 0x0B #
+		$-1   $144  // inserted:   -144 point $-1 -1 $-1 -0.197956 0.49762 0 #
+		$-1   $92   // inserted:   -92 vertex $-1 -1 $-1 $69 0 $144 #
+		$-1   $69   // inserted:   -69 edge $91 -1 $-1 $92 -3.14159 $92 3.14159 $54 $93 forward @7 unknown #
+		$-1   $54   // inserted:   -54 coedge $-1 -1 $-1 $54 $54 $-1 $69 forward $41 0 $-1 #
+		$-1   $41   // inserted:   -41 wire $-1 -1 $-1 $-1 $54 $28 $-1 out #
+		$-1   $93   // inserted:   -93 ellipse-curve $-1 -1 $-1 -0.957956 0.49762 0 0 0 -1 -0.076 -0 -0 1 I I #
 		$-1   $2    // inserted:   -2 body $-1 165 $-1 $15 $-1 $-1 #
 		$-1   $28   // inserted:   -28 shell $-1 -1 $-1 $-1 $-1 $-1 $41 $15 #
 		$-1   $15   // inserted:   -15 lump $-1 -1 $-1 $-1 $28 $2 #
 		$-1   $91   // inserted:   -91 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $69 38 0 11 0 2 #
-		$-1   $145  // inserted:   -145 point $-1 -1 $-1 (0.298204 0.049762 0) #
-		$-1   $95   // inserted:   -95 vertex $-1 -1 $-1 $70 $145 #
-		$-1   $70   // inserted:   -70 edge $94 -1 $-1 $95 -3.14159 $95 3.14159 $55 $96 0x0B @7 unknown #
-		$-1   $55   // inserted:   -55 coedge $-1 -1 $-1 $55 $55 $-1 $70 0x0B $42 $-1 #
-		$-1   $42   // inserted:   -42 wire $-1 -1 $-1 $-1 $55 $29 $-1 0x0B #
-		$-1   $96   // inserted:   -96 ellipse-curve $-1 -1 $-1 (0.222204 0.049762 0) (0 0 -1) (-0.076 -0 -0) 1 0x0B 0x0B #
+		$-1   $145  // inserted:   -145 point $-1 -1 $-1 2.98204 0.49762 0 #
+		$-1   $95   // inserted:   -95 vertex $-1 -1 $-1 $70 0 $145 #
+		$-1   $70   // inserted:   -70 edge $94 -1 $-1 $95 -3.14159 $95 3.14159 $55 $96 forward @7 unknown #
+		$-1   $55   // inserted:   -55 coedge $-1 -1 $-1 $55 $55 $-1 $70 forward $42 0 $-1 #
+		$-1   $42   // inserted:   -42 wire $-1 -1 $-1 $-1 $55 $29 $-1 out #
+		$-1   $96   // inserted:   -96 ellipse-curve $-1 -1 $-1 2.22204 0.49762 0 0 0 -1 -0.076 -0 -0 1 I I #
 		$-1   $3    // inserted:   -3 body $-1 166 $-1 $16 $-1 $-1 #
 		$-1   $29   // inserted:   -29 shell $-1 -1 $-1 $-1 $-1 $-1 $42 $16 #
 		$-1   $16   // inserted:   -16 lump $-1 -1 $-1 $-1 $29 $3 #
 		$-1   $94   // inserted:   -94 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $70 38 0 13 0 2 #
-		$-1   $146  // inserted:   -146 point $-1 -1 $-1 (-0.337796 0.049762 0) #
-		$-1   $98   // inserted:   -98 vertex $-1 -1 $-1 $71 $146 #
-		$-1   $71   // inserted:   -71 edge $97 -1 $-1 $98 -3.14159 $98 3.14159 $56 $99 0x0B @7 unknown #
-		$-1   $56   // inserted:   -56 coedge $-1 -1 $-1 $56 $56 $-1 $71 0x0B $43 $-1 #
-		$-1   $43   // inserted:   -43 wire $-1 -1 $-1 $-1 $56 $30 $-1 0x0B #
-		$-1   $99   // inserted:   -99 ellipse-curve $-1 -1 $-1 (-0.413796 0.049762 0) (0 0 -1) (-0.076 -0 -0) 1 0x0B 0x0B #
+		$-1   $146  // inserted:   -146 point $-1 -1 $-1 -3.37796 0.49762 0 #
+		$-1   $98   // inserted:   -98 vertex $-1 -1 $-1 $71 0 $146 #
+		$-1   $71   // inserted:   -71 edge $97 -1 $-1 $98 -3.14159 $98 3.14159 $56 $99 forward @7 unknown #
+		$-1   $56   // inserted:   -56 coedge $-1 -1 $-1 $56 $56 $-1 $71 forward $43 0 $-1 #
+		$-1   $43   // inserted:   -43 wire $-1 -1 $-1 $-1 $56 $30 $-1 out #
+		$-1   $99   // inserted:   -99 ellipse-curve $-1 -1 $-1 -4.13796 0.49762 0 0 0 -1 -0.076 -0 -0 1 I I #
 		$-1   $4    // inserted:   -4 body $-1 167 $-1 $17 $-1 $-1 #
 		$-1   $30   // inserted:   -30 shell $-1 -1 $-1 $-1 $-1 $-1 $43 $17 #
 		$-1   $17   // inserted:   -17 lump $-1 -1 $-1 $-1 $30 $4 #
 		$-1   $97   // inserted:   -97 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $71 38 0 15 0 2 #
-		$-1   $147  // inserted:   -147 point $-1 -1 $-1 (0.00420444 0.682262 0.254) #
-		$-1   $101  // inserted:   -101 vertex $-1 -1 $-1 $72 $147 #
-		$-1   $72   // inserted:   -72 edge $100 -1 $-1 $101 -3.14159 $101 3.14159 $57 $102 0x0B @7 unknown #
-		$-1   $57   // inserted:   -57 coedge $-1 -1 $-1 $57 $57 $-1 $72 0x0B $44 $-1 #
-		$-1   $44   // inserted:   -44 wire $-1 -1 $-1 $-1 $57 $31 $-1 0x0B #
-		$-1   $102  // inserted:   -102 ellipse-curve $-1 -1 $-1 (-0.0957956 0.682262 0.254) (0 0 -1) (-0.1 -0 -0) 1 0x0B 0x0B #
+		$-1   $147  // inserted:   -147 point $-1 -1 $-1 0.0420444 6.82262 2.54 #
+		$-1   $101  // inserted:   -101 vertex $-1 -1 $-1 $72 0 $147 #
+		$-1   $72   // inserted:   -72 edge $100 -1 $-1 $101 -3.14159 $101 3.14159 $57 $102 forward @7 unknown #
+		$-1   $57   // inserted:   -57 coedge $-1 -1 $-1 $57 $57 $-1 $72 forward $44 0 $-1 #
+		$-1   $44   // inserted:   -44 wire $-1 -1 $-1 $-1 $57 $31 $-1 out #
+		$-1   $102  // inserted:   -102 ellipse-curve $-1 -1 $-1 -0.957956 6.82262 2.54 0 0 -1 -0.1 -0 -0 1 I I #
 		$-1   $5    // inserted:   -5 body $-1 183 $-1 $18 $-1 $-1 #
 		$-1   $31   // inserted:   -31 shell $-1 -1 $-1 $-1 $-1 $-1 $44 $18 #
 		$-1   $18   // inserted:   -18 lump $-1 -1 $-1 $-1 $31 $5 #
 		$-1   $100  // inserted:   -100 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $72 38 0 17 0 2 #
-		$-1   $148  // inserted:   -148 point $-1 -1 $-1 (0.00420444 -0.582738 0.254) #
-		$-1   $104  // inserted:   -104 vertex $-1 -1 $-1 $73 $148 #
-		$-1   $73   // inserted:   -73 edge $103 -1 $-1 $104 -3.14159 $104 3.14159 $58 $105 0x0B @7 unknown #
-		$-1   $58   // inserted:   -58 coedge $-1 -1 $-1 $58 $58 $-1 $73 0x0B $45 $-1 #
-		$-1   $45   // inserted:   -45 wire $-1 -1 $-1 $-1 $58 $32 $-1 0x0B #
-		$-1   $105  // inserted:   -105 ellipse-curve $-1 -1 $-1 (-0.0957956 -0.582738 0.254) (0 0 -1) (-0.1 -0 -0) 1 0x0B 0x0B #
+		$-1   $148  // inserted:   -148 point $-1 -1 $-1 0.0420444 -5.82738 2.54 #
+		$-1   $104  // inserted:   -104 vertex $-1 -1 $-1 $73 0 $148 #
+		$-1   $73   // inserted:   -73 edge $103 -1 $-1 $104 -3.14159 $104 3.14159 $58 $105 forward @7 unknown #
+		$-1   $58   // inserted:   -58 coedge $-1 -1 $-1 $58 $58 $-1 $73 forward $45 0 $-1 #
+		$-1   $45   // inserted:   -45 wire $-1 -1 $-1 $-1 $58 $32 $-1 out #
+		$-1   $105  // inserted:   -105 ellipse-curve $-1 -1 $-1 -0.957956 -5.82738 2.54 0 0 -1 -0.1 -0 -0 1 I I #
 		$-1   $6    // inserted:   -6 body $-1 199 $-1 $19 $-1 $-1 #
 		$-1   $32   // inserted:   -32 shell $-1 -1 $-1 $-1 $-1 $-1 $45 $19 #
 		$-1   $19   // inserted:   -19 lump $-1 -1 $-1 $-1 $32 $6 #
 		$-1   $103  // inserted:   -103 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $73 38 0 22 0 2 #
-		$-1   $152  // inserted:   -152 point $-1 -1 $-1 (-0.567296 -0.597 0.597) #
-		$-1   $108  // inserted:   -108 vertex $151 -1 $-1 $75 $152 #
-		$-1   $75   // inserted:   -75 edge $107 -1 $-1 $108 9.2835e-24 $109 3.14159 $59 $110 0x0B @7 unknown #
-		$-1   $59   // inserted:   -59 coedge $-1 -1 $-1 $74 $74 $-1 $75 0x0B $46 $-1 #
-		$-1   $46   // inserted:   -46 wire $-1 -1 $-1 $-1 $59 $33 $-1 0x0B #
-		$-1   $154  // inserted:   -154 point $-1 -1 $-1 (-0.567296 0.597 0.597) #
-		$-1   $110  // inserted:   -110 ellipse-curve $-1 -1 $-1 (-0.567296 1.11022e-16 0.597) (-1 0 0) (0 -0.597 1.05367e-08) 1 0x0A 9.2835e-24 0x0A 3.14159 #
-		$-1   $109  // inserted:   -109 vertex $153 -1 $-1 $75 $154 #
-		$-1   $150  // inserted:   -150 straight-curve $-1 -1 $-1 (-0.567296 0.597 0.597) (0 -1 0) 0x0A 0 0x0A 1.194 #
-		$-1   $106  // inserted:   -106 edge $149 -1 $-1 $109 0 $108 1.194 $74 $150 0x0B @7 unknown #
-		$-1   $74   // inserted:   -74 coedge $-1 -1 $-1 $59 $59 $-1 $106 0x0B $46 $-1 #
+		$-1   $152  // inserted:   -152 point $-1 -1 $-1 -5.67296 -5.97 5.97 #
+		$-1   $108  // inserted:   -108 vertex $151 -1 $-1 $75 0 $152 #
+		$-1   $75   // inserted:   -75 edge $107 -1 $-1 $108 9.2835e-24 $109 3.14159 $59 $110 forward @7 unknown #
+		$-1   $59   // inserted:   -59 coedge $-1 -1 $-1 $74 $74 $-1 $75 forward $46 0 $-1 #
+		$-1   $46   // inserted:   -46 wire $-1 -1 $-1 $-1 $59 $33 $-1 out #
+		$-1   $154  // inserted:   -154 point $-1 -1 $-1 -5.67296 5.97 5.97 #
+		$-1   $110  // inserted:   -110 ellipse-curve $-1 -1 $-1 -5.67296 1.11022e-15 5.97 -1 0 0 0 -0.597 1.05367e-08 1 F 9.2835e-24 F 3.14159 #
+		$-1   $109  // inserted:   -109 vertex $153 -1 $-1 $75 1 $154 #
+		$-1   $150  // inserted:   -150 straight-curve $-1 -1 $-1 -5.67296 5.97 5.97 0 -1 0 F 0 F 1.194 #
+		$-1   $106  // inserted:   -106 edge $149 -1 $-1 $109 0 $108 1.194 $74 $150 forward @7 unknown #
+		$-1   $74   // inserted:   -74 coedge $-1 -1 $-1 $59 $59 $-1 $106 forward $46 0 $-1 #
 		$-1   $7    // inserted:   -7 body $-1 1421 $-1 $20 $-1 $-1 #
 		$-1   $33   // inserted:   -33 shell $-1 -1 $-1 $-1 $-1 $-1 $46 $20 #
 		$-1   $20   // inserted:   -20 lump $-1 -1 $-1 $-1 $33 $7 #
@@ -101,27 +101,27 @@ SAT history_stream: 2 2 0 2341 $-1 $0 $0 $-1:
 		$-1   $151  // inserted:   -151 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $108 38 0 12 0 1 #
 		$-1   $153  // inserted:   -153 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $109 38 0 15 0 1 #
 		$-1   $149  // inserted:   -149 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $106 38 0 24 0 2 #
-		$-1   $163  // inserted:   -163 point $-1 -1 $-1 (-0.567296 0.597 0.597) #
-		$-1   $115  // inserted:   -115 vertex $162 -1 $-1 $78 $163 #
-		$-1   $78   // inserted:   -78 edge $114 -1 $-1 $115 0 $116 1.143 $60 $117 0x0B @7 unknown #
-		$-1   $60   // inserted:   -60 coedge $-1 -1 $-1 $76 $77 $-1 $78 0x0B $47 $-1 #
-		$-1   $47   // inserted:   -47 wire $-1 -1 $-1 $-1 $60 $34 $-1 0x0B #
-		$-1   $165  // inserted:   -165 point $-1 -1 $-1 (0.575704 0.597 0.597) #
-		$-1   $117  // inserted:   -117 straight-curve $-1 -1 $-1 (-0.567296 0.597 0.597) (1 0 0) 0x0A 0 0x0A 1.143 #
-		$-1   $116  // inserted:   -116 vertex $164 -1 $-1 $78 $165 #
-		$-1   $180  // inserted:   -180 point $-1 -1 $-1 (0.575704 -0.597 0.597) #
-		$-1   $158  // inserted:   -158 straight-curve $-1 -1 $-1 (0.575704 0.597 0.597) (0 -1 0) 0x0A 0 0x0A 1.194 #
-		$-1   $157  // inserted:   -157 vertex $179 -1 $-1 $112 $180 #
-		$-1   $112  // inserted:   -112 edge $156 -1 $-1 $116 0 $157 1.194 $76 $158 0x0B @7 unknown #
-		$-1   $76   // inserted:   -76 coedge $-1 -1 $-1 $111 $60 $-1 $112 0x0B $47 $-1 #
-		$-1   $182  // inserted:   -182 point $-1 -1 $-1 (-0.567296 -0.597 0.597) #
-		$-1   $178  // inserted:   -178 straight-curve $-1 -1 $-1 (0.575704 -0.597 0.597) (-1 0 0) 0x0A 0 0x0A 1.143 #
-		$-1   $160  // inserted:   -160 vertex $181 -1 $-1 $155 $182 #
-		$-1   $155  // inserted:   -155 edge $177 -1 $-1 $157 0 $160 1.143 $111 $178 0x0B @7 unknown #
-		$-1   $111  // inserted:   -111 coedge $-1 -1 $-1 $77 $76 $-1 $155 0x0B $47 $-1 #
-		$-1   $161  // inserted:   -161 straight-curve $-1 -1 $-1 (-0.567296 -0.597 0.597) (0 1 0) 0x0A 0 0x0A 1.194 #
-		$-1   $113  // inserted:   -113 edge $159 -1 $-1 $160 0 $115 1.194 $77 $161 0x0B @7 unknown #
-		$-1   $77   // inserted:   -77 coedge $-1 -1 $-1 $60 $111 $-1 $113 0x0B $47 $-1 #
+		$-1   $163  // inserted:   -163 point $-1 -1 $-1 -5.67296 5.97 5.97 #
+		$-1   $115  // inserted:   -115 vertex $162 -1 $-1 $78 0 $163 #
+		$-1   $78   // inserted:   -78 edge $114 -1 $-1 $115 0 $116 1.143 $60 $117 forward @7 unknown #
+		$-1   $60   // inserted:   -60 coedge $-1 -1 $-1 $76 $77 $-1 $78 forward $47 0 $-1 #
+		$-1   $47   // inserted:   -47 wire $-1 -1 $-1 $-1 $60 $34 $-1 out #
+		$-1   $165  // inserted:   -165 point $-1 -1 $-1 5.75704 5.97 5.97 #
+		$-1   $117  // inserted:   -117 straight-curve $-1 -1 $-1 -5.67296 5.97 5.97 1 0 0 F 0 F 1.143 #
+		$-1   $116  // inserted:   -116 vertex $164 -1 $-1 $78 1 $165 #
+		$-1   $180  // inserted:   -180 point $-1 -1 $-1 5.75704 -5.97 5.97 #
+		$-1   $158  // inserted:   -158 straight-curve $-1 -1 $-1 5.75704 5.97 5.97 0 -1 0 F 0 F 1.194 #
+		$-1   $157  // inserted:   -157 vertex $179 -1 $-1 $112 1 $180 #
+		$-1   $112  // inserted:   -112 edge $156 -1 $-1 $116 0 $157 1.194 $76 $158 forward @7 unknown #
+		$-1   $76   // inserted:   -76 coedge $-1 -1 $-1 $111 $60 $-1 $112 forward $47 0 $-1 #
+		$-1   $182  // inserted:   -182 point $-1 -1 $-1 -5.67296 -5.97 5.97 #
+		$-1   $178  // inserted:   -178 straight-curve $-1 -1 $-1 5.75704 -5.97 5.97 -1 0 0 F 0 F 1.143 #
+		$-1   $160  // inserted:   -160 vertex $181 -1 $-1 $155 1 $182 #
+		$-1   $155  // inserted:   -155 edge $177 -1 $-1 $157 0 $160 1.143 $111 $178 forward @7 unknown #
+		$-1   $111  // inserted:   -111 coedge $-1 -1 $-1 $77 $76 $-1 $155 forward $47 0 $-1 #
+		$-1   $161  // inserted:   -161 straight-curve $-1 -1 $-1 -5.67296 -5.97 5.97 0 1 0 F 0 F 1.194 #
+		$-1   $113  // inserted:   -113 edge $159 -1 $-1 $160 0 $115 1.194 $77 $161 forward @7 unknown #
+		$-1   $77   // inserted:   -77 coedge $-1 -1 $-1 $60 $111 $-1 $113 forward $47 0 $-1 #
 		$-1   $8    // inserted:   -8 body $-1 2220 $-1 $21 $-1 $-1 #
 		$-1   $34   // inserted:   -34 shell $-1 -1 $-1 $-1 $-1 $-1 $47 $21 #
 		$-1   $21   // inserted:   -21 lump $-1 -1 $-1 $-1 $34 $8 #
@@ -133,52 +133,52 @@ SAT history_stream: 2 2 0 2341 $-1 $0 $0 $-1:
 		$-1   $177  // inserted:   -177 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $155 38 0 14 0 2 #
 		$-1   $181  // inserted:   -181 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $160 38 0 11 0 1 #
 		$-1   $159  // inserted:   -159 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $113 38 0 15 0 2 #
-		$-1   $166  // inserted:   -166 point $-1 -1 $-1 (0.204204 0.632262 0.254) #
-		$-1   $119  // inserted:   -119 vertex $-1 -1 $-1 $79 $166 #
-		$-1   $79   // inserted:   -79 edge $118 -1 $-1 $119 -3.14159 $119 3.14159 $61 $120 0x0B @7 unknown #
-		$-1   $61   // inserted:   -61 coedge $-1 -1 $-1 $61 $61 $-1 $79 0x0B $48 $-1 #
-		$-1   $48   // inserted:   -48 wire $-1 -1 $-1 $-1 $61 $35 $-1 0x0B #
-		$-1   $120  // inserted:   -120 ellipse-curve $-1 -1 $-1 (0.00420444 0.632262 0.254) (0 0 -1) (-0.2 -0 -0) 1 0x0B 0x0B #
+		$-1   $166  // inserted:   -166 point $-1 -1 $-1 2.04204 6.32262 2.54 #
+		$-1   $119  // inserted:   -119 vertex $-1 -1 $-1 $79 0 $166 #
+		$-1   $79   // inserted:   -79 edge $118 -1 $-1 $119 -3.14159 $119 3.14159 $61 $120 forward @7 unknown #
+		$-1   $61   // inserted:   -61 coedge $-1 -1 $-1 $61 $61 $-1 $79 forward $48 0 $-1 #
+		$-1   $48   // inserted:   -48 wire $-1 -1 $-1 $-1 $61 $35 $-1 out #
+		$-1   $120  // inserted:   -120 ellipse-curve $-1 -1 $-1 0.0420444 6.32262 2.54 0 0 -1 -0.2 -0 -0 1 I I #
 		$-1   $9    // inserted:   -9 body $-1 2284 $-1 $22 $-1 $-1 #
 		$-1   $35   // inserted:   -35 shell $-1 -1 $-1 $-1 $-1 $-1 $48 $22 #
 		$-1   $22   // inserted:   -22 lump $-1 -1 $-1 $-1 $35 $9 #
 		$-1   $118  // inserted:   -118 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $79 38 0 12 0 2 #
-		$-1   $167  // inserted:   -167 point $-1 -1 $-1 (0.204204 -0.632738 0.254) #
-		$-1   $122  // inserted:   -122 vertex $-1 -1 $-1 $80 $167 #
-		$-1   $80   // inserted:   -80 edge $121 -1 $-1 $122 -3.14159 $122 3.14159 $62 $123 0x0B @7 unknown #
-		$-1   $62   // inserted:   -62 coedge $-1 -1 $-1 $62 $62 $-1 $80 0x0B $49 $-1 #
-		$-1   $49   // inserted:   -49 wire $-1 -1 $-1 $-1 $62 $36 $-1 0x0B #
-		$-1   $123  // inserted:   -123 ellipse-curve $-1 -1 $-1 (0.00420444 -0.632738 0.254) (0 0 -1) (-0.2 -0 -0) 1 0x0B 0x0B #
+		$-1   $167  // inserted:   -167 point $-1 -1 $-1 2.04204 -6.32738 2.54 #
+		$-1   $122  // inserted:   -122 vertex $-1 -1 $-1 $80 0 $167 #
+		$-1   $80   // inserted:   -80 edge $121 -1 $-1 $122 -3.14159 $122 3.14159 $62 $123 forward @7 unknown #
+		$-1   $62   // inserted:   -62 coedge $-1 -1 $-1 $62 $62 $-1 $80 forward $49 0 $-1 #
+		$-1   $49   // inserted:   -49 wire $-1 -1 $-1 $-1 $62 $36 $-1 out #
+		$-1   $123  // inserted:   -123 ellipse-curve $-1 -1 $-1 0.0420444 -6.32738 2.54 0 0 -1 -0.2 -0 -0 1 I I #
 		$-1   $10   // inserted:   -10 body $-1 2294 $-1 $23 $-1 $-1 #
 		$-1   $36   // inserted:   -36 shell $-1 -1 $-1 $-1 $-1 $-1 $49 $23 #
 		$-1   $23   // inserted:   -23 lump $-1 -1 $-1 $-1 $36 $10 #
 		$-1   $121  // inserted:   -121 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $80 38 0 12 0 2 #
-		$-1   $168  // inserted:   -168 point $-1 -1 $-1 (-0.567296 1.7553e-16 1.12374) #
-		$-1   $125  // inserted:   -125 vertex $-1 -1 $-1 $81 $168 #
-		$-1   $81   // inserted:   -81 edge $124 -1 $-1 $125 -3.14159 $125 3.14159 $63 $126 0x0B @7 unknown #
-		$-1   $63   // inserted:   -63 coedge $-1 -1 $-1 $63 $63 $-1 $81 0x0B $50 $-1 #
-		$-1   $50   // inserted:   -50 wire $-1 -1 $-1 $-1 $63 $37 $-1 0x0B #
-		$-1   $126  // inserted:   -126 ellipse-curve $-1 -1 $-1 (-0.567296 1.11022e-16 0.597) (1 0 0) (-0 -0 -0.526743) 1 0x0B 0x0B #
+		$-1   $168  // inserted:   -168 point $-1 -1 $-1 -5.67296 1.7553e-15 11.2374 #
+		$-1   $125  // inserted:   -125 vertex $-1 -1 $-1 $81 0 $168 #
+		$-1   $81   // inserted:   -81 edge $124 -1 $-1 $125 -3.14159 $125 3.14159 $63 $126 forward @7 unknown #
+		$-1   $63   // inserted:   -63 coedge $-1 -1 $-1 $63 $63 $-1 $81 forward $50 0 $-1 #
+		$-1   $50   // inserted:   -50 wire $-1 -1 $-1 $-1 $63 $37 $-1 out #
+		$-1   $126  // inserted:   -126 ellipse-curve $-1 -1 $-1 -5.67296 1.11022e-15 5.97 1 0 0 -0 -0 -0.526743 1 I I #
 		$-1   $11   // inserted:   -11 body $-1 2310 $-1 $24 $-1 $-1 #
 		$-1   $37   // inserted:   -37 shell $-1 -1 $-1 $-1 $-1 $-1 $50 $24 #
 		$-1   $24   // inserted:   -24 lump $-1 -1 $-1 $-1 $37 $11 #
 		$-1   $124  // inserted:   -124 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $81 38 0 20 0 2 #
-		$-1   $169  // inserted:   -169 point $-1 -1 $-1 (-3.0053 0.25 0.332) #
-		$-1   $128  // inserted:   -128 vertex $-1 -1 $-1 $82 $169 #
-		$-1   $82   // inserted:   -82 edge $127 -1 $-1 $128 -3.14159 $128 3.14159 $64 $129 0x0B @7 unknown #
-		$-1   $64   // inserted:   -64 coedge $-1 -1 $-1 $64 $64 $-1 $82 0x0B $51 $-1 #
-		$-1   $51   // inserted:   -51 wire $-1 -1 $-1 $-1 $64 $38 $-1 0x0B #
-		$-1   $129  // inserted:   -129 ellipse-curve $-1 -1 $-1 (-3.0053 0.25 0.297) (1 0 0) (-0 -0 -0.035) 1 0x0B 0x0B #
+		$-1   $169  // inserted:   -169 point $-1 -1 $-1 -30.053 2.5 3.32 #
+		$-1   $128  // inserted:   -128 vertex $-1 -1 $-1 $82 0 $169 #
+		$-1   $82   // inserted:   -82 edge $127 -1 $-1 $128 -3.14159 $128 3.14159 $64 $129 forward @7 unknown #
+		$-1   $64   // inserted:   -64 coedge $-1 -1 $-1 $64 $64 $-1 $82 forward $51 0 $-1 #
+		$-1   $51   // inserted:   -51 wire $-1 -1 $-1 $-1 $64 $38 $-1 out #
+		$-1   $129  // inserted:   -129 ellipse-curve $-1 -1 $-1 -30.053 2.5 2.97 1 0 0 -0 -0 -0.035 1 I I #
 		$-1   $12   // inserted:   -12 body $-1 2339 $-1 $25 $-1 $-1 #
 		$-1   $38   // inserted:   -38 shell $-1 -1 $-1 $-1 $-1 $-1 $51 $25 #
 		$-1   $25   // inserted:   -25 lump $-1 -1 $-1 $-1 $38 $12 #
 		$-1   $127  // inserted:   -127 NMx_Generated_Brep_tag-NMx_Brep_Name_tag-NMx_Brep_tag-NamingMatching-attrib $-1 -1 $-1 $-1 $82 38 0 5 0 2 #
-		$-1   $170  // inserted:   -170 point $-1 -1 $-1 (-3.0053 -0.25 0.332) #
-		$-1   $131  // inserted:   -131 vertex $-1 -1 $-1 $83 $170 #
-		$-1   $83   // inserted:   -83 edge $130 -1 $-1 $131 -3.14159 $131 3.14159 $65 $132 0x0B @7 unknown #
-		$-1   $65   // inserted:   -65 coedge $-1 -1 $-1 $65 $65 $-1 $83 0x0B $52 $-1 #
-		$-1   $52   // inserted:   -52 wire $-1 -1 $-1 $-1 $65 $39 $-1 0x0B #
-		$-1   $132  // inserted:   -132 ellipse-curve $-1 -1 $-1 (-3.0053 -0.25 0.297) (1 0 0) (-0 -0 -0.035) 1 0x0B 0x0B #
+		$-1   $170  // inserted:   -170 point $-1 -1 $-1 -30.053 -2.5 3.32 #
+		$-1   $131  // inserted:   -131 vertex $-1 -1 $-1 $83 0 $170 #
+		$-1   $83   // inserted:   -83 edge $130 -1 $-1 $131 -3.14159 $131 3.14159 $65 $132 forward @7 unknown #
+		$-1   $65   // inserted:   -65 coedge $-1 -1 $-1 $65 $65 $-1 $83 forward $52 0 $-1 #
+		$-1   $52   // inserted:   -52 wire $-1 -1 $-1 $-1 $65 $39 $-1 out #
+		$-1   $132  // inserted:   -132 ellipse-curve $-1 -1 $-1 -30.053 -2.5 2.97 1 0 0 -0 -0 -0.035 1 I I #
 		$-1   $13   // inserted:   -13 body $-1 2340 $-1 $26 $-1 $-1 #
 		$-1   $39   // inserted:   -39 shell $-1 -1 $-1 $-1 $-1 $-1 $52 $26 #
 		$-1   $26   // inserted:   -26 lump $-1 -1 $-1 $-1 $39 $13 #
