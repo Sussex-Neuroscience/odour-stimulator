@@ -91,6 +91,6 @@ module digitalPressure(){
 
 //plate();
 //translate([screwoffset/2,screwoffset/2,thorz]){
-//rotameter();
+rotameter();
 //}
 
