@@ -25,10 +25,17 @@ roty = 31.88;
 rotz = 38;
 frontwall = 15;
 rotwall = 4;
+
 ////screw in connector
 connd = 13.6;
 connh = 19.15;
 
+//digital pressure controller
+digx = 26.75;
+digy = 91.42;
+digz = 20;
+digscrewoffset = 31.28;
+digwall = 4;
 
 
 
@@ -85,12 +92,29 @@ cube([basex,basey,basez]);
 
 
 
-module digitalPressure(){
+module digitalpressure(){
+difference(){
+cube([digx+digwall,digy+digwall,digz]);
+translate([digwall/2,digwall/2,digwall/2]){
+cube([digx+2*tol,digy+2*tol,digz]);
 
+}//end translate
+translate([digwall/2,-2,5]){
+cube([digx+2*tol,digy+digwall+5,digz]);
+}//end translate
+}//end difference
+difference(){
+cube([digx+digwall+20,digy+digwall,digwall/2]);
+translate([digx+digwall+8,5,-10]){
+    cube([screwd+2*tol,digy+digwall-10,30]);
+}//end translate
+}//end difference
 }//end digital pressure
 
-//plate();
-//translate([screwoffset/2,screwoffset/2,thorz]){
+plate();
+translate([99+screwoffset/2,screwoffset/2,thorz]){
 rotameter();
-//}
-
+}//end translate
+translate([15+screwoffset/2,screwoffset/2,thorz]){
+digitalpressure();
+}//end translate
