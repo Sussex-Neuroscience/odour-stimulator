@@ -1,5 +1,10 @@
-// system to hold rotameters and pressure controller of the odour stimulator
-
+///////////////////////////////////
+// system to hold rotameters     // 
+// and pressure controller       //
+// of the odour stimulator       //
+// code by AM Chagas 30/10/2020  //
+//     CC BY SA 4.0              //
+///////////////////////////////////
 
 
 //printing tolerance
@@ -71,21 +76,21 @@ cube([basex,basey,basez]);
                 cube([rotx+2*tol,roty+2*tol,rotz+5]);
             }//end translate
             translate([-1,(roty+rotwall-connd)/2,0]){
-                cube([rotwall+4,connd,connh+10]);
+                cube([rotwall+4,connd+2*tol,connh+13]);
             }//end translate
-            translate([rotx,rotwall/2,frontwall+1]){
-                cube([10,roty,rotz+rotwall-frontwall]);
+            translate([rotx,rotwall/2,frontwall-3]){
+                cube([10,roty,rotz+rotwall-frontwall+5]);
             }//end translate
                 }//end difference
         
         
     }//end translate
 }//end union
-    translate([5,5,-basez]){
-        cube([basex-10,screwd+2*tol,5]);
+    translate([20,5,-basez]){
+        cube([basex-30,screwd+2*tol,5]);
         }//end translate
-    translate([5,5,-basez]){
-        cube([screwd+2*tol,basey-10,5]);
+    translate([5,20,-basez]){
+        cube([screwd+2*tol,basey-30,5]);
     }//end translate
 }// end difference
 }//end rotameter
@@ -94,27 +99,26 @@ cube([basex,basey,basez]);
 
 module digitalpressure(){
 difference(){
-cube([digx+digwall,digy+digwall,digz]);
-translate([digwall/2,digwall/2,digwall/2]){
-cube([digx+2*tol,digy+2*tol,digz]);
-
-}//end translate
-translate([digwall/2,-2,5]){
-cube([digx+2*tol,digy+digwall+5,digz]);
-}//end translate
-}//end difference
+    cube([digx+digwall,digy+digwall,digz]);
+    translate([digwall/2,digwall/2,digwall/2]){
+        cube([digx+2*tol,digy+2*tol,digz]);
+    }//end translate
+    translate([digwall/2,-2,5]){
+        cube([digx+2*tol,digy+digwall+5,digz]);
+    }//end translate
+ }//end difference
 difference(){
-cube([digx+digwall+20,digy+digwall,digwall/2]);
-translate([digx+digwall+8,5,-10]){
-    cube([screwd+2*tol,digy+digwall-10,30]);
-}//end translate
-}//end difference
+    cube([digx+digwall+20,digy+digwall,digwall/2]);
+    translate([digx+digwall+8,5,-10]){
+        cube([screwd+2*tol,digy+digwall-10,30]);
+    }//end translate
+    }//end difference
 }//end digital pressure
 
-plate();
-translate([99+screwoffset/2,screwoffset/2,thorz]){
-rotameter();
-}//end translate
-translate([15+screwoffset/2,screwoffset/2,thorz]){
+//plate();
+//translate([99+screwoffset/2,screwoffset/2,0]){
+//rotameter();
+//}//end translate
+//translate([15+screwoffset/2,screwoffset/2,0]){
 digitalpressure();
-}//end translate
+//}//end translate
