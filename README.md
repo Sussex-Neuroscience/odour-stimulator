@@ -5,7 +5,7 @@
 ## This open source stimulator is based on previous work by a different group. Their work is published  [here](https://www.pnas.org/content/111/47/16925), [here](https://www.sciencedirect.com/science/article/pii/S2589004218300646) and [here](<https://academic.oup.com/chemse/article/42/2/141/2709444>)
 
 
-![](https://academic.oup.com/view-large/figure/88041150/bjw11401.jpg)
+![](media/overview.jpeg)
 
 --- 
 ## Some information about this project:
