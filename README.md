@@ -1,4 +1,4 @@
-# Odour stimulator - A fast, time precise open source odour stimulator. 
+# Odour stimulator - A fast, time precise open source system to deliver odours. 
 
 
 
