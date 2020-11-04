@@ -10,7 +10,7 @@
 --- 
 ## Some information about this project:
 
-- developed as part of the work of the [Nowotny lab]() and it is being setup initially for experiments with flies. 
+- developed as part of the work of the [Nowotny lab](https://www.sussex.ac.uk/research/centres/sussex-neuroscience/phd/4yearphd/supervisors/circuits-projects/thomas-nowotny-project) and it is being setup initially for experiments with flies. 
 - The reason we are publicly documenting things is that since the original papers describing the stimulator came out, some enabling technology has become widely available, which makes setting this up simpler and less expensive. This write up is our attempt to document this.
 - Some documentation of the orignal stimulator is already publicly available on [github already](https://github.com/grg2rsr/OlfactoryStimulator), unfortunately some of the schematics are only in PDF format (which prevents fast conversion to PCBs) and some of the CAD files are in a proprietary format, that officially can only be read with "Autodesk Inventor". Luckily there is a [plugin for FreeCad](https://github.com/jmplonka/InventorLoader/) that allows the conversion to a more open format.  This derivative will share orignal files that can be modified using open source sofware.
 
