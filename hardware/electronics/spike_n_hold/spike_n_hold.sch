@@ -48,7 +48,7 @@ F 1 "MJH11021G" V 1400 6600 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 1400 6700 50  0001 C CNN
 F 3 "~" H 1200 6600 50  0001 C CNN
 	1    1200 6600
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Q_NPN_Darlington_BCE Q7
@@ -544,7 +544,7 @@ F 1 "MJH11021G" V 1450 2950 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 1450 3050 50  0001 C CNN
 F 3 "~" H 1250 2950 50  0001 C CNN
 	1    1250 2950
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:Q_NPN_Darlington_BCE Q8
@@ -1059,9 +1059,7 @@ Wire Wire Line
 	9450 2600 8750 2600
 Connection ~ 8750 2600
 Wire Wire Line
-	9450 2600 10250 2600
-Wire Wire Line
-	10250 2600 10250 2450
+	9450 2600 9950 2600
 Connection ~ 9450 2600
 Wire Wire Line
 	7300 2350 7300 2600
@@ -1076,11 +1074,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 2600 8400 2600
 Wire Notes Line
-	6400 1500 10850 1500
-Wire Notes Line
 	6400 2950 6400 1500
-Wire Notes Line
-	10850 1500 10850 2950
 Wire Wire Line
 	7750 1900 7750 2000
 Connection ~ 7750 1900
@@ -1099,40 +1093,20 @@ F 3 "~" H 7050 2210 50  0001 C CNN
 	1    7000 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 2250 10450 2250
-$Comp
-L power:+12V #PWR061
-U 1 1 60185206
-P 10450 2250
-F 0 "#PWR061" H 10450 2100 50  0001 C CNN
-F 1 "+12V" V 10465 2378 50  0000 L CNN
-F 2 "" H 10450 2250 50  0001 C CNN
-F 3 "" H 10450 2250 50  0001 C CNN
-	1    10450 2250
-	0    1    1    0   
-$EndComp
-Connection ~ 10250 2250
-Wire Wire Line
-	10250 2050 10250 2250
-Wire Wire Line
-	9250 2050 10250 2050
-Wire Wire Line
-	10250 2250 10150 2250
 $Comp
 L Device:CP_Small C15
 U 1 1 6017D364
-P 10250 2350
-F 0 "C15" H 10338 2396 50  0000 L CNN
-F 1 "220µF" H 10338 2305 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 10250 2350 50  0001 C CNN
-F 3 "~" H 10250 2350 50  0001 C CNN
-	1    10250 2350
+P 9950 2400
+F 0 "C15" H 10038 2446 50  0000 L CNN
+F 1 "220µF" H 10038 2355 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9950 2400 50  0001 C CNN
+F 3 "~" H 9950 2400 50  0001 C CNN
+	1    9950 2400
 	1    0    0    -1  
 $EndComp
 Connection ~ 9450 2250
 Wire Wire Line
-	9450 2250 9850 2250
+	9450 2250 9550 2250
 Wire Wire Line
 	9250 2250 9450 2250
 Wire Wire Line
@@ -1151,12 +1125,12 @@ $EndComp
 $Comp
 L Device:L L1
 U 1 1 6016FEA8
-P 10000 2250
-F 0 "L1" V 10190 2250 50  0000 C CNN
-F 1 "33µH" V 10099 2250 50  0000 C CNN
-F 2 "Inductor_THT:L_Radial_D7.5mm_P3.50mm_Fastron_07P" H 10000 2250 50  0001 C CNN
-F 3 "~" H 10000 2250 50  0001 C CNN
-	1    10000 2250
+P 9700 2250
+F 0 "L1" V 9890 2250 50  0000 C CNN
+F 1 "33µH" V 9799 2250 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D7.5mm_P3.50mm_Fastron_07P" H 9700 2250 50  0001 C CNN
+F 3 "~" H 9700 2250 50  0001 C CNN
+	1    9700 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1169,17 +1143,6 @@ F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 9450 2225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9450 2400 50  0001 C CNN
 	1    9450 2400
 	0    1    1    0   
-$EndComp
-$Comp
-L Regulator_Switching:LM2596T-12 U5
-U 1 1 6016A039
-P 8750 2150
-F 0 "U5" H 8750 2517 50  0000 C CNN
-F 1 "LM2596T-12" H 8750 2426 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 8800 1900 50  0001 L CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 8750 2150 50  0001 C CNN
-	1    8750 2150
-	1    0    0    -1  
 $EndComp
 Connection ~ 7750 2000
 Wire Wire Line
@@ -1272,4 +1235,141 @@ F 3 "" H 5450 1850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 1850 5600 1850
+$Comp
+L Device:R_Small R16
+U 1 1 60973D33
+P 9850 1900
+F 0 "R16" V 10046 1900 50  0000 C CNN
+F 1 "9.1k" V 9955 1900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 9850 1900 50  0001 C CNN
+F 3 "~" H 9850 1900 50  0001 C CNN
+	1    9850 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 609749E3
+P 9550 1900
+F 0 "R15" V 9746 1900 50  0000 C CNN
+F 1 "1k" V 9655 1900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 9550 1900 50  0001 C CNN
+F 3 "~" H 9550 1900 50  0001 C CNN
+	1    9550 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 2250 9950 2250
+Wire Wire Line
+	9950 2250 9950 2300
+Wire Wire Line
+	9950 2500 9950 2600
+Connection ~ 9950 2250
+Wire Wire Line
+	9950 2250 10050 2250
+$Comp
+L power:+12V #PWR061
+U 1 1 60185206
+P 10050 2250
+F 0 "#PWR061" H 10050 2100 50  0001 C CNN
+F 1 "+12V" V 10065 2378 50  0000 L CNN
+F 2 "" H 10050 2250 50  0001 C CNN
+F 3 "" H 10050 2250 50  0001 C CNN
+	1    10050 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 2250 9950 1900
+Wire Wire Line
+	9750 1900 9700 1900
+Wire Wire Line
+	9700 1900 9700 2050
+Wire Wire Line
+	9250 2050 9700 2050
+Connection ~ 9700 1900
+Wire Wire Line
+	9700 1900 9650 1900
+$Comp
+L power:GND #PWR027
+U 1 1 609DDA6C
+P 9350 1850
+F 0 "#PWR027" H 9350 1600 50  0001 C CNN
+F 1 "GND" H 9355 1677 50  0000 C CNN
+F 2 "" H 9350 1850 50  0001 C CNN
+F 3 "" H 9350 1850 50  0001 C CNN
+	1    9350 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 1900 9350 1900
+Wire Wire Line
+	9350 1900 9350 1850
+$Comp
+L Regulator_Switching:LM2596T-ADJ U5
+U 1 1 609E439A
+P 8750 2150
+F 0 "U5" H 8750 2517 50  0000 C CNN
+F 1 "LM2596T-ADJ" H 8750 2426 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 8800 1900 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 8750 2150 50  0001 C CNN
+	1    8750 2150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6400 1500 10850 1500
+Wire Notes Line
+	10850 1500 10850 2950
+Wire Notes Line
+	5100 1600 6000 1600
+Wire Notes Line
+	6000 1600 6000 2000
+Wire Notes Line
+	6000 2000 5100 2000
+Wire Notes Line
+	5100 1600 5100 2000
+Text Notes 6650 1400 0    100  ~ 0
+R15 and R6 values should/can be changed to\nincrease/decrease the voltage output of the LM2596
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 601E1F7E
+P 7100 4300
+F 0 "H4" H 7200 4346 50  0000 L CNN
+F 1 "MountingHole" H 7200 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7100 4300 50  0001 C CNN
+F 3 "~" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 601E3B53
+P 7100 4100
+F 0 "H3" H 7200 4146 50  0000 L CNN
+F 1 "MountingHole" H 7200 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7100 4100 50  0001 C CNN
+F 3 "~" H 7100 4100 50  0001 C CNN
+	1    7100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 601E3EEA
+P 6850 4100
+F 0 "H1" H 6950 4146 50  0000 L CNN
+F 1 "MountingHole" H 6950 4055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6850 4100 50  0001 C CNN
+F 3 "~" H 6850 4100 50  0001 C CNN
+	1    6850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 601E410A
+P 6850 4300
+F 0 "H2" H 6950 4346 50  0000 L CNN
+F 1 "MountingHole" H 6950 4255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6850 4300 50  0001 C CNN
+F 3 "~" H 6850 4300 50  0001 C CNN
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

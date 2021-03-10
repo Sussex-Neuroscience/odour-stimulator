@@ -247,11 +247,26 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Regulator_Switching_LM2596T-12
+# Mechanical_MountingHole
 #
-DEF Regulator_Switching_LM2596T-12 U 0 20 Y Y 1 F N
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Regulator_Switching_LM2596T-ADJ
+#
+DEF Regulator_Switching_LM2596T-ADJ U 0 20 Y Y 1 F N
 F0 "U" -400 250 50 H V L CNN
-F1 "Regulator_Switching_LM2596T-12" 0 250 50 H V L CNN
+F1 "Regulator_Switching_LM2596T-ADJ" 0 250 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" 50 -250 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS LM2596T-5 LM2596T-3.3 LM2596T-ADJ
