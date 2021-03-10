@@ -1,0 +1,4 @@
+bom: hardware/electronics/spike_n_hold/1-click-bom.tsv
+gerbers: hardware/electronics/spike_n_hold/gerbers
+summary: A fast, time precise open source system to deliver odours.
+site: https://github.com/Sussex-Neuroscience/odour-stimulator/
