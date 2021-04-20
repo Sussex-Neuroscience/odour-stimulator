@@ -13,7 +13,7 @@ glass2Len = 20;
 blockDia = 25;
 blockLen = 40;
 
-longChanLen = 15;
+longChanLen = 20;//15;
 longChanDia = 2.9;
 
 shortChanLen = 8;//valve protusions are 6.33mm
@@ -86,19 +86,40 @@ module valve_fit2(){
 /////////////////// tubing entries ///////////////////////////
     rotate([90,0,0]){
     union(){
-    for (i=[1:2]){    
-        translate([i*interValveDis*sin(45),0,-i*interValveDis*sin(45)+(valveFitDia/2-longChanLen)/2]){
-            cylinder(d=valveFitDia+2*tol,h=longChanLen,center=true);
-            }//end translate
+    //for (i=[2:2]){    
+    //    translate([i*interValveDis*sin(45),0,-i*interValveDis*sin(45)+(valveFitDia/2-longChanLen)/2]){
+    //        cylinder(d=valveFitDia+2*tol,h=longChanLen,center=true);
+    //        }//end translate
 
-        }//end for
+    //    }//end for
+        rotate([0,2.5,0]){
+        translate([interValveDis*sin(47.5),0,(-interValveDis-longChanLen/2)*sin(47.5)-1]){
+            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
+            }//end translate
+            
+        }//rotate
+        
+        rotate([0,2.5,0]){
+        translate([interValveDis*sin(47.5),0,(-interValveDis-longChanLen/2)*sin(47.5)-7]){
+            cylinder(d1=longChanDia+2*tol,d2=longChanDia+2*tol,h=longChanLen,center=true);
+            }//end translate
+            
+        }//rotate
 
-        translate([1*interValveDis*sin(45),0,-longChanLen]){
-            cylinder(d1=longChanDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
+        rotate([0,-5,0]){
+        translate([2*interValveDis*sin(40),0,(-longChanLen-2*interValveDis)*sin(40)+2.5]){
+            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
             }//end translate
-        translate([2*interValveDis*sin(45),0,-longChanLen]){
-            cylinder(d1=longChanDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
+            
+        }//rotate
+        
+                rotate([0,-5,0]){
+        translate([2*interValveDis*sin(40),0,(-longChanLen-2*interValveDis)*sin(40)-5]){
+            cylinder(d1=longChanDia+2*tol,d2=longChanDia+2*tol,h=longChanLen,center=true);
             }//end translate
+            
+        }//rotate
+        
         
     }//end union 
 }//end rotate
@@ -110,9 +131,9 @@ module valve_fit2(){
 
 
 ////////////////////////////////////////////
-/*
+
 difference(){ 
-difference(){
+//difference(){
     union(){
     translate([-blockDia/2,-blockDia/2,-5]){
     cube([blockDia,blockDia, blockLen]);
@@ -159,17 +180,17 @@ translate([0,5,14]){
 }//end translate
 
 
-translate([-3,-blockDia/2-1,-15]){
-    cube([blockDia+10,blockDia+2,blockLen+15]);
-    }//end translate
+//translate([-3.8,-blockDia/2-1,-15]){
+//    cube([blockDia+10,blockDia+2,blockLen+15]);
+//    }//end translate
 
 
+//}//end difference
 }//end difference
-}
-*/
 
 
-valve_fit2();
+
+//valve_fit2();
 
 
 
