@@ -1,8 +1,8 @@
 tol = 0.1;
-flowConnDia = 17;
+flowConnDia = 17.65;
 flowConnLen = 12;
-bridgeH = 5;
-tubeDia = 4;
+bridgeH = 10;
+tubeDia = 3;
 tubeLen = flowConnLen+8;
 
 $fn = 45; 
@@ -18,7 +18,7 @@ difference(){
     }//end union
 
     translate([0,0,flowConnLen-0.01]){
-        cylinder(d1=flowConnDia,d2=tubeDia-4,h=bridgeH,flowConnLen);
+        cylinder(d1=flowConnDia,d2=tubeDia-1,h=bridgeH);
         }//end translate
         translate([0,0,-2]){
         cylinder(d=flowConnDia+2*tol,h=flowConnLen+2);
