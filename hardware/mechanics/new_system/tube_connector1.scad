@@ -1,10 +1,10 @@
-tube1InnerDia = 5;
-tube1OutDia = 8;
+tube1InnerDia = 6;
+tube1OutDia = 9;
 tube1FitLen = 25;
 
 tube2InnerDia = 1.5;
 tube2OutDia = 3;
-tube2FitLen = 10;
+tube2FitLen = 15;
 
 tol = 0.1;
 
