@@ -22,6 +22,10 @@ centralChanLen = blockDia/2+1;
 valveFitDia = 2;//2.03;
 interValveDis = 4.19;
 
+blockHolderx = 20;
+blockHoldery = blockDia/2;
+blockHolderz = 10;
+
 tol = 0.1;
 $fn = 60;
 
@@ -140,6 +144,11 @@ difference(){
     }//end translate
     translate([0,0,(-blockLen+20)/2]){
     cylinder(d=glass1Dia+4,h=20);
+    }//end translate
+    
+    //block holder
+    translate([blockDia/2,0,blockLen-blockHolderz-5]){
+    cube([blockHolderx,blockHoldery,blockHolderz]);
     }//end translate
 }//end union
 

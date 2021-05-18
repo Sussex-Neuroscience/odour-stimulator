@@ -1,6 +1,14 @@
-tubeInnerDia = 2;
-tubeLen = 15;
+/////////////////////////////////////
+//  Y connectors for tubing system //
+//      of odour stimulator        //
+//         CC BY SA 4.0            //
+//    BY AM CHAGAS 20210507        //
+/////////////////////////////////////
 
+tubeInnerDia = 1.2;
+tubeOuterDia = 2.9;
+tubeLen = 15;
+tol = 0.1;
 $fn=30;
 
 module y(innerDia=tubeInnerDia,length=tubeLen){
@@ -21,7 +29,7 @@ module y(innerDia=tubeInnerDia,length=tubeLen){
 
 
 difference(){
-y(innerDia=tubeInnerDia+1,length=tubeLen);
+y(innerDia=tubeOuterDia,length=tubeLen);
 y(length=tubeLen+2);
 
 
