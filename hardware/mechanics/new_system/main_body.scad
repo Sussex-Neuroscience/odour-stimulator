@@ -6,6 +6,7 @@ ccExitDia = 2;
 ccExitLen = 2;
 
 glass1Dia = 7.95;
+glass1DiaRim = glass1Dia+4;
 glass1Len = 20;
 glass2Dia = 7;
 glass2Len = 20;
@@ -14,7 +15,7 @@ blockDia = 25;
 blockLen = 40;
 
 longChanLen = 20;//15;
-longChanDia = 2.9;
+longChanDia = 2.9+0.1;
 
 shortChanLen = 8;//valve protusions are 6.33mm
 centralChanLen = blockDia/2+1;
@@ -96,28 +97,28 @@ module valve_fit2(){
     //        }//end translate
 
     //    }//end for
-        rotate([0,2.5,0]){
+        rotate([-5,2.5,0]){
         translate([interValveDis*sin(47.5),0,(-interValveDis-longChanLen/2)*sin(47.5)-1]){
             cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
             }//end translate
             
         }//rotate
         
-        rotate([0,2.5,0]){
+        rotate([-5,2.5,0]){
         translate([interValveDis*sin(47.5),0,(-interValveDis-longChanLen/2)*sin(47.5)-7]){
             cylinder(d1=longChanDia+2*tol,d2=longChanDia+2*tol,h=longChanLen,center=true);
             }//end translate
             
         }//rotate
 
-        rotate([0,-5,0]){
+        rotate([-5,-5,0]){
         translate([2*interValveDis*sin(40),0,(-longChanLen-2*interValveDis)*sin(40)+2.5]){
             cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
             }//end translate
             
         }//rotate
         
-                rotate([0,-5,0]){
+                rotate([-5,-5,0]){
         translate([2*interValveDis*sin(40),0,(-longChanLen-2*interValveDis)*sin(40)-5]){
             cylinder(d1=longChanDia+2*tol,d2=longChanDia+2*tol,h=longChanLen,center=true);
             }//end translate
@@ -137,13 +138,12 @@ module valve_fit2(){
 ////////////////////////////////////////////
 
 difference(){ 
-//difference(){
     union(){
     translate([-blockDia/2,-blockDia/2,-5]){
     cube([blockDia,blockDia, blockLen]);
     }//end translate
-    translate([0,0,(-blockLen+20)/2]){
-    cylinder(d=glass1Dia+4,h=20);
+    translate([0,0,-(glass1Len)/2]){
+    cylinder(d=glass1DiaRim,h=20);
     }//end translate
     
     //block holder
@@ -194,7 +194,7 @@ translate([0,5,14]){
 //    }//end translate
 
 
-//}//end difference
+
 }//end difference
 
 

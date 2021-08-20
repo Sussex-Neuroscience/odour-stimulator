@@ -1,0 +1,89 @@
+PressureController:
+    Name: Digital pressure controller
+    Description: >
+        A digital pressure controller capable of at least 2.5 bar
+    Suppliers:
+        Analyt-MTC:
+            PartNo: 36245R
+            Link: https://www.analyt-mtc.de/en/
+RotameterS:
+    Name: Rotameter small flow rate
+    Description: >
+        A rotameter with a flow rate of 5 – 100 cc/min Air @ ATP
+
+RotameterM:
+    Name: Rotameter medium flow rate
+    Description: >
+        A rotameter with a flow rate of 20-250 cc/min Air @ ATP
+
+RotameterL:
+    Name: Rotameter large flow rate
+    Description: >
+        A rotameter with a flow rate of 
+
+3DPrinter:
+    Name: 3D printer
+    Description: >
+        A machine capable of turning g-code and plastic filament into objects
+        For printing Polypropylene it should be able to have a nozzle that heats up to ~230C
+        and a heated bed that reaches 100C.
+
+CentralPCB:
+    Name: central printed circuit board
+    Description: >
+        The central printed circuit board is the board that containst the electronic components controlling power distribution, interaction with a microcontroller and computer, and generation of the control signal to the spike and hold boards. These boards can be ordered from many different suppliers, and the necessary files to do so are present here: https://github.com/BeeHive-org/BeeHive/tree/master/hardware/hub_PCB_redesign
+
+SHPCB:
+    Name: Spike and Hold printed circuit boards
+    Description: >
+        The spike and hold printed circuit boards are used to place all electronic components responsible for getting a control signal and translating that into opening and closing each solenoid valve. These boards can be ordered from many different suppliers, and the necessary files to do so are present here: https://github.com/BeeHive-org/BeeHive/tree/master/hardware/spike_n_hold
+
+SolenoidValves:
+    Name: Mini solenoid Valves
+    Description: >
+        The solenoid valves are 2 way valves that control the direction of air flow. For low time latencies in delivering odours, 
+        we are using small valves that have a fast response time (<2ms) in opening and closing. Their small size and small head space
+        also helps with the delivery of short, time precise pulses. 
+    Suppliers:
+        Lee-Company:
+            PartNo: LHDA1231115H
+            Link: https://www.theleeco.com/products/electro-fluidic-systems/solenoid-valves/control-valves/lhd-series/3-port/ported/
+
+
+PrintedBlock:
+    Name: 3D printed central block
+    Description: >
+        The central block is a 3D printed block (for this project we are using Polypropylene) where solenoid valves 
+        and air lines cab be fixated. It has a central chamber where the air coming from different lines can be mixed.
+        The flow of each line into the block's central chamber is controlled by the opening or closure of one solenoid valve.
+
+PPFilament:
+    Name: Polypropilene filament 
+    description: >
+        3D printing filamente made of Polypropylene.
+    Suppliers:
+        RS:
+            PartNo: 174-0056
+            Link: https://uk.rs-online.com/web/p/3d-printing-materials/1740056/
+
+ThinTube:
+    Name: Silicon tubing
+    Description: vlslkskdlak
+
+M4x10PanSteel:
+    Name: M4x10 Pan Head Steel
+    Description: >
+        This is lots of text
+        about some screw?
+    Specs:
+        Head: Pan
+        Length: 10 mm
+        Material: Stainless Steel
+        Pitch: 0.7
+    Suppliers:
+        RS:
+            PartNo: 528-817
+            Link: https://uk.rs-online.com/web/p/machine-screws/0528817/
+        McMasterCarr:
+            PartNo: 90116A207
+            Link: https://www.mcmaster.com/90116A207
