@@ -33,3 +33,7 @@ The image below is taken from https://academic.oup.com/chemse/article/42/2/141/2
 
 ### repository structure:
 
+#### repository link: https://github.com/Sussex-Neuroscience/odour-stimulator
+
+#### tags: 
+hardware,behaviour,electrophysiology,drosophila
