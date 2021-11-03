@@ -15,7 +15,7 @@ blockDia = 25;
 blockLen = 40;
 
 longChanLen = 20;//15;
-longChanDia = 2.9+0.1;
+longChanDia = 2;//2.9+0.1;
 
 shortChanLen = 8;//valve protusions are 6.33mm
 centralChanLen = blockDia/2+1;
@@ -99,7 +99,7 @@ module valve_fit2(){
     //    }//end for
         rotate([-5,2.5,0]){
         translate([interValveDis*sin(47.5),0,(-interValveDis-longChanLen/2)*sin(47.5)-1]){
-            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
+            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen-4,center=true);
             }//end translate
             
         }//rotate
@@ -113,7 +113,7 @@ module valve_fit2(){
 
         rotate([-5,-5,0]){
         translate([2*interValveDis*sin(40),0,(-longChanLen-2*interValveDis)*sin(40)+2.5]){
-            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen,center=true);
+            cylinder(d1=valveFitDia+2*tol,d2=valveFitDia+2*tol,h=longChanLen-11,center=true);
             }//end translate
             
         }//rotate
