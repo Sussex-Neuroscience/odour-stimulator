@@ -15,7 +15,7 @@ blockDia = 25;
 blockLen = 40;
 
 longChanLen = 20;//15;
-longChanDia = 2;//2.9+0.1;
+longChanDia = 2.9+0.1;
 
 shortChanLen = 8;//valve protusions are 6.33mm
 centralChanLen = blockDia/2+1;
